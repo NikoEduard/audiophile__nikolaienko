@@ -1,0 +1,441 @@
+/*----------------HEADER CONTENT-----------------*/
+
+.header {
+   min-height: 729px;
+   padding: 32px 0 0 0;
+   background-color: #141414;
+   border-radius: 8px;
+   background-image: url(../images/header-bg.png);
+   background-repeat: no-repeat;
+   background-position: right 121px top 0;
+   margin-bottom: 127px;
+
+   &__topline {
+      @extend %flexbox;
+      padding-bottom: 36px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      margin-bottom: 128px;
+      gap: 197px;
+
+      &>a:last-child {
+         margin-left: auto;
+      }
+   }
+
+   &__list {
+      display: flex;
+      gap: 34px;
+
+      li a {
+         font-weight: 700;
+         font-size: 13px;
+         line-height: 25px;
+         letter-spacing: 2px;
+         text-transform: uppercase;
+         color: $w;
+         transition: color .7s ease-in;
+      }
+
+      li a:hover {
+         color: $orng;
+      }
+   }
+
+   &__content {
+
+      &-info {
+         width: 399px;
+         height: 346px;
+
+         h2 {
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 58px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: $w;
+            margin-bottom: 24px;
+         }
+
+         h2+p {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 25px;
+            color: $w;
+            opacity: 0.75;
+            margin-bottom: 40px;
+            max-width: 349px;
+         }
+
+         &>button {
+            width: 160px;
+            height: 48px;
+            background: #d87d4a;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: $w;
+            transition: background .7s ease-in;
+         }
+
+         &>button:hover {
+            background: #FBAF85;
+         }
+      }
+
+      &-undertitle {
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 19px;
+         letter-spacing: 10px;
+         text-transform: uppercase;
+         color: #ffffff;
+         opacity: 0.5;
+         margin-bottom: 24px;
+      }
+   }
+}
+
+/* ------------------------BEGINNING OF THE MAIN PART (AUDIOTYPES SECTION) --------------------------*/
+
+.main {}
+
+.audiotypes {
+   margin-bottom: 168px;
+
+   &__inner {
+      display: flex;
+      gap: 30px;
+   }
+
+   &__card {
+      @extend %flexbox;
+      flex-direction: column;
+      width: 350px;
+      height: 204px;
+      background: #f1f1f1;
+      border-radius: 8px;
+      padding-top: 65px;
+      position: relative;
+
+      img {
+         position: absolute;
+         top: 0;
+         transform: translateY(-50%);
+      }
+
+      div {
+         width: 122px;
+         height: 18px;
+         background: #000;
+         filter: blur(21.7463px);
+         margin-bottom: 33px;
+      }
+
+      h3 {
+         font-weight: 700;
+         font-size: 18px;
+         line-height: 25px;
+         letter-spacing: 1.28571px;
+         text-transform: uppercase;
+         margin-bottom: 15px;
+      }
+
+      a {
+         font-weight: 700;
+         font-size: 13px;
+         line-height: 18px;
+         letter-spacing: 1px;
+         text-transform: uppercase;
+         color: #000;
+         opacity: 0.5;
+         padding-right: 18px;
+         position: relative;
+         transition: color .7s ease-in;
+      }
+
+      a::before {
+         content: "";
+         width: 8px;
+         height: 12px;
+         position: absolute;
+         background-image: url(../images/icons/arrow.svg);
+         background-repeat: no-repeat;
+         top: 3px;
+         right: 0;
+      }
+
+      a:hover {
+         color: $orng;
+      }
+   }
+}
+
+/* -------------------------------------FIRST COMPONENT SECTION -------------------------- */
+.first {
+
+   &__component {
+      margin-bottom: 48px;
+
+      &-inner {
+         min-height: 560px;
+         padding-right: 95px;
+         border-radius: 8px;
+         background: url(../images/zx9-speaker-bg.png),
+            url(../images/zx9-circles-bg.png) $orng;
+         background-repeat: no-repeat;
+         background-position: bottom 0 left 117px, bottom 0 left 0;
+         @extend %flexbox;
+         justify-content: flex-end;
+      }
+
+      &-info {
+         width: 349px;
+
+         h3 {
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 58px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: $w;
+            margin-bottom: 24px;
+         }
+
+         p {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 25px;
+            color: $w;
+            opacity: 0.75;
+            margin-bottom: 40px;
+         }
+
+         button {
+            width: 160px;
+            height: 48px;
+            background: #000;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: $w;
+            transition: all .7s ease-in;
+         }
+
+         button:hover {
+            background: #4C4C4C;
+         }
+      }
+   }
+}
+
+/* ------------------------------------ SECOND COMPONENT SECTION ------------------------ */
+
+.scnd {
+
+   &__component {
+      margin-bottom: 48px;
+
+      &-inner {
+         @extend %flexbox;
+         min-height: 320px;
+         padding: 0 0 0 95px;
+         border-radius: 8px;
+         background-image: url(../images/zx7-speaker-bg.png);
+         background-repeat: no-repeat;
+
+         h3 {
+            @extend %common_title;
+         }
+
+         button {
+            @extend %common_btn;
+         }
+
+         button:hover {
+            background: #000;
+            color: $w;
+         }
+      }
+   }
+}
+
+/* ----------------------------------THIRD COMPONENT SECTION---------------------- */
+
+.thrd {
+
+   &__component {
+      margin-bottom: 200px;
+
+      &-inner {
+         // width: 100%;
+         display: flex;
+         gap: 30px;
+         min-height: 320px;
+      }
+
+      &-bg {
+         width: 50%;
+         border-radius: 8px;
+         background-image: url(../images/yx1-earphones-img.png);
+         background-repeat: no-repeat;
+      }
+
+      &-card {
+         width: 50%;
+         display: flex;
+         align-items: center;
+         padding: 0 0 0 95px;
+         background-color: #f1f1f1;
+         border-radius: 8px;
+
+         h3 {
+            @extend %common_title;
+         }
+
+         button {
+            @extend %common_btn;
+         }
+
+         button:hover {
+            background: #000;
+            color: $w;
+         }
+      }
+   }
+}
+
+/* -------------------------------------- FOURTH COMPONENT SECTION ----------------------------- */
+
+.frth {
+
+   &__component {
+      margin-bottom: 200px;
+
+      &-inner {
+         width: 100%;
+         min-height: 588px;
+         @extend %flexbox;
+         background-image: url(../images/man-in-earphones.png);
+         background-repeat: no-repeat;
+         background-position: right 0 top 0;
+      }
+
+      &-info {
+         max-width: 445px;
+
+         h3 {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 44px;
+            letter-spacing: 1.42857px;
+            text-transform: uppercase;
+            margin-bottom: 32px;
+         }
+
+         h3 span {
+            color: $orng;
+         }
+
+         p {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 25px;
+            opacity: 0.5;
+         }
+      }
+   }
+}
+
+
+/* ----------------------------------- FOOTER PART ------------------------- */
+
+
+.footer {
+   background-color: #000;
+   padding: 75px 0 48px;
+   position: relative;
+
+   &__inner {}
+
+   &__line {
+      width: 101px;
+      height: 4px;
+      background-color: $orng;
+      position: absolute;
+      top: 0;
+   }
+
+   &__nav {
+      @extend %flexbox;
+      justify-content: space-between;
+      margin-bottom: 36px;
+   }
+
+   &__menu {
+      display: flex;
+      gap: 34px;
+
+      li a {
+         font-weight: 700;
+         font-size: 13px;
+         line-height: 25px;
+         letter-spacing: 2px;
+         text-transform: uppercase;
+         color: $w;
+         transition: color .7s ease-in;
+
+         &:hover {
+            color: $orng;
+         }
+      }
+   }
+
+   &__info {
+      @extend %flexbox;
+      justify-content: space-between;
+
+      &-text {
+         max-width: 540px;
+
+         p {
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            color: $w;
+            opacity: 0.5;
+
+            &:first-child {
+               font-weight: 500;
+               margin-bottom: 56px;
+            }
+         }
+      }
+
+      &-social {
+
+         ul {
+            @extend %flexbox;
+            gap: 16px;
+         }
+      }
+   }
+
+   &__social {
+
+      &-icon {
+
+         svg path {
+            transition: fill .7s ease-in;
+
+            &:hover {
+               fill: $orng;
+            }
+         }
+      }
+   }
+}

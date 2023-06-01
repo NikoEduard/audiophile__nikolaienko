@@ -1,0 +1,749 @@
+@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.footer__info-social ul, .footer__info, .footer__nav, .frth__component-inner, .scnd__component-inner, .first__component-inner, .audiotypes__card, .header__topline {
+  display: flex;
+  align-items: center;
+}
+
+.thrd__component-card h3, .scnd__component-inner h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.thrd__component-card button, .scnd__component-inner button {
+  width: 160px;
+  height: 48px;
+  border: 1px solid #000;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.7s ease-in;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+/*----------------HEADER CONTENT-----------------*/
+.header {
+  min-height: 729px;
+  padding: 32px 0 0 0;
+  background-color: #141414;
+  border-radius: 8px;
+  background-image: url(../images/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: right 121px top 0;
+  margin-bottom: 127px;
+}
+.header__topline {
+  padding-bottom: 36px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 128px;
+  gap: 197px;
+}
+.header__topline > a:last-child {
+  margin-left: auto;
+}
+.header__list {
+  display: flex;
+  gap: 34px;
+}
+.header__list li a {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  transition: color 0.7s ease-in;
+}
+.header__list li a:hover {
+  color: #d87d4a;
+}
+.header__content-info {
+  width: 399px;
+  height: 346px;
+}
+.header__content-info h2 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.header__content-info h2 + p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  opacity: 0.75;
+  margin-bottom: 40px;
+  max-width: 349px;
+}
+.header__content-info > button {
+  width: 160px;
+  height: 48px;
+  background: #d87d4a;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  transition: background 0.7s ease-in;
+}
+.header__content-info > button:hover {
+  background: #FBAF85;
+}
+.header__content-undertitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-bottom: 24px;
+}
+
+/* ------------------------BEGINNING OF THE MAIN PART (AUDIOTYPES SECTION) --------------------------*/
+.audiotypes {
+  margin-bottom: 168px;
+}
+.audiotypes__inner {
+  display: flex;
+  gap: 30px;
+}
+.audiotypes__card {
+  flex-direction: column;
+  width: 350px;
+  height: 204px;
+  background: #f1f1f1;
+  border-radius: 8px;
+  padding-top: 65px;
+  position: relative;
+}
+.audiotypes__card img {
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+}
+.audiotypes__card div {
+  width: 122px;
+  height: 18px;
+  background: #000;
+  filter: blur(21.7463px);
+  margin-bottom: 33px;
+}
+.audiotypes__card h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.audiotypes__card a {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000;
+  opacity: 0.5;
+  padding-right: 18px;
+  position: relative;
+  transition: color 0.7s ease-in;
+}
+.audiotypes__card a::before {
+  content: "";
+  width: 8px;
+  height: 12px;
+  position: absolute;
+  background-image: url(../images/icons/arrow.svg);
+  background-repeat: no-repeat;
+  top: 3px;
+  right: 0;
+}
+.audiotypes__card a:hover {
+  color: #d87d4a;
+}
+
+/* -------------------------------------FIRST COMPONENT SECTION -------------------------- */
+.first__component {
+  margin-bottom: 48px;
+}
+.first__component-inner {
+  min-height: 560px;
+  padding-right: 95px;
+  border-radius: 8px;
+  background: url(../images/zx9-speaker-bg.png), url(../images/zx9-circles-bg.png) #d87d4a;
+  background-repeat: no-repeat;
+  background-position: bottom 0 left 117px, bottom 0 left 0;
+  justify-content: flex-end;
+}
+.first__component-info {
+  width: 349px;
+}
+.first__component-info h3 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.first__component-info p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  opacity: 0.75;
+  margin-bottom: 40px;
+}
+.first__component-info button {
+  width: 160px;
+  height: 48px;
+  background: #000;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  transition: all 0.7s ease-in;
+}
+.first__component-info button:hover {
+  background: #4C4C4C;
+}
+
+/* ------------------------------------ SECOND COMPONENT SECTION ------------------------ */
+.scnd__component {
+  margin-bottom: 48px;
+}
+.scnd__component-inner {
+  min-height: 320px;
+  padding: 0 0 0 95px;
+  border-radius: 8px;
+  background-image: url(../images/zx7-speaker-bg.png);
+  background-repeat: no-repeat;
+}
+.scnd__component-inner button:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* ----------------------------------THIRD COMPONENT SECTION---------------------- */
+.thrd__component {
+  margin-bottom: 200px;
+}
+.thrd__component-inner {
+  display: flex;
+  gap: 30px;
+  min-height: 320px;
+}
+.thrd__component-bg {
+  width: 50%;
+  border-radius: 8px;
+  background-image: url(../images/yx1-earphones-img.png);
+  background-repeat: no-repeat;
+}
+.thrd__component-card {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 95px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+.thrd__component-card button:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* -------------------------------------- FOURTH COMPONENT SECTION ----------------------------- */
+.frth__component {
+  margin-bottom: 200px;
+}
+.frth__component-inner {
+  width: 100%;
+  min-height: 588px;
+  background-image: url(../images/man-in-earphones.png);
+  background-repeat: no-repeat;
+  background-position: right 0 top 0;
+}
+.frth__component-info {
+  max-width: 445px;
+}
+.frth__component-info h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.42857px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+.frth__component-info h3 span {
+  color: #d87d4a;
+}
+.frth__component-info p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  opacity: 0.5;
+}
+
+/* ----------------------------------- FOOTER PART ------------------------- */
+.footer {
+  background-color: #000;
+  padding: 75px 0 48px;
+  position: relative;
+}
+.footer__line {
+  width: 101px;
+  height: 4px;
+  background-color: #d87d4a;
+  position: absolute;
+  top: 0;
+}
+.footer__nav {
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+.footer__menu {
+  display: flex;
+  gap: 34px;
+}
+.footer__menu li a {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  transition: color 0.7s ease-in;
+}
+.footer__menu li a:hover {
+  color: #d87d4a;
+}
+.footer__info {
+  justify-content: space-between;
+}
+.footer__info-text {
+  max-width: 540px;
+}
+.footer__info-text p {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  opacity: 0.5;
+}
+.footer__info-text p:first-child {
+  font-weight: 500;
+  margin-bottom: 56px;
+}
+.footer__info-social ul {
+  gap: 16px;
+}
+.footer__social-icon svg path {
+  transition: fill 0.7s ease-in;
+}
+.footer__social-icon svg path:hover {
+  fill: #d87d4a;
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    max-width: 768px;
+  }
+  .container {
+    max-width: 689px;
+  }
+  .header {
+    background-image: url(../images/media768/header-bg-768.png);
+    background-position: center;
+    margin-bottom: 148px;
+  }
+  .header__topline {
+    gap: 42px;
+    margin-bottom: 126px;
+  }
+  .header__topline > a:first-child {
+    order: 2;
+  }
+  .header__topline nav {
+    display: none;
+  }
+  .header__topline div {
+    width: 16px;
+    height: 15px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    position: relative;
+    order: 1;
+    cursor: pointer;
+  }
+  .header__topline div::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 3px;
+    background-color: #fff;
+    top: 3px;
+  }
+  .header__topline > a:last-child {
+    order: 3;
+  }
+  .header__content {
+    display: flex;
+    justify-content: center;
+  }
+  .header__content-info {
+    width: 379px;
+    text-align: center;
+  }
+  .audiotypes {
+    margin-bottom: 96px;
+  }
+  .audiotypes__inner {
+    gap: 10px;
+  }
+  .audiotypes__card {
+    width: 223px;
+    height: 165px;
+    padding-top: 42px;
+  }
+  .audiotypes__card img {
+    height: auto;
+  }
+  .audiotypes__card div {
+    width: 95px;
+    height: 14px;
+    margin-bottom: 32px;
+  }
+  .audiotypes__card h3 {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1.07143px;
+  }
+  .audiotypes__card:nth-child(1) img {
+    width: 80px;
+  }
+  .audiotypes__card:nth-child(2) img {
+    width: 84px;
+  }
+  .audiotypes__card:nth-child(3) img {
+    width: 103px;
+  }
+  .first__component {
+    margin-bottom: 32px;
+  }
+  .first__component-inner {
+    min-height: 720px;
+    padding: 0 0 65px 0;
+    background: url(../images/media768/zx9-speaker-bg-768.png), url(../images/media768/zx9-circles-bg-768.png) #d87d4a;
+    background-repeat: no-repeat;
+    background-position: top 52px center, top;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .first__component-info {
+    text-align: center;
+  }
+  .scnd__component {
+    margin-bottom: 32px;
+  }
+  .scnd__component-inner {
+    padding: 0 0 0 62px;
+    background-image: url(../images/media768/zx7-speaker-bg-768.png);
+    background-repeat: no-repeat;
+  }
+  .thrd__component {
+    margin-bottom: 96px;
+  }
+  .thrd__component-inner {
+    gap: 11px;
+  }
+  .thrd__component-bg {
+    background-image: url(../images/media768/yx1-earphones-img-768.png);
+    background-repeat: no-repeat;
+  }
+  .thrd__component-card {
+    padding: 0 0 0 41px;
+  }
+  .frth__component {
+    margin-bottom: 96px;
+  }
+  .frth__component-inner {
+    min-height: 633px;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(../images/media768/man-in-earphones-768.png);
+    background-repeat: no-repeat;
+  }
+  .frth__component-info {
+    max-width: 573px;
+    text-align: center;
+  }
+  .footer {
+    padding: 60px 0 46px;
+  }
+  .footer__nav {
+    display: block;
+  }
+  .footer__nav img {
+    margin-bottom: 32px;
+  }
+  .footer__info {
+    position: relative;
+  }
+  .footer__info-text {
+    max-width: 689px;
+  }
+  .footer__info-social {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+@media (max-width: 400px) {
+  .wrapper {
+    max-width: 375px;
+  }
+  .container {
+    max-width: 327px;
+  }
+  .header {
+    min-height: 600px;
+    background-image: url(../images/media375/header-bg-375.png);
+    background-position: center;
+    margin-bottom: 92px;
+  }
+  .header__topline {
+    gap: 0;
+    justify-content: space-between;
+    margin-bottom: 108px;
+  }
+  .header__topline > a:last-child {
+    margin: 0;
+  }
+  .header__content-info {
+    width: 328px;
+  }
+  .header__content-info h2 {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 1.28571px;
+  }
+  .header__content-info h2 + p {
+    margin-bottom: 28px;
+  }
+  .audiotypes {
+    margin-bottom: 120px;
+  }
+  .audiotypes__inner {
+    flex-direction: column;
+    gap: 68px;
+  }
+  .audiotypes__card {
+    width: 327px;
+  }
+  .first__component {
+    margin-bottom: 24px;
+  }
+  .first__component-inner {
+    min-height: 600px;
+    padding: 0 0 55px 0;
+    background: url(../images/media375/zx9-speaker-bg-375.png), url(../images/media375/zx9-circles-bg-375.png) #d87d4a;
+    background-repeat: no-repeat;
+    background-position: top 55px center, top;
+  }
+  .first__component-info {
+    width: 280px;
+  }
+  .first__component-info h3 {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 1.28571px;
+    padding: 0 15px;
+  }
+  .scnd__component {
+    margin-bottom: 24px;
+  }
+  .scnd__component-inner {
+    padding: 0 0 0 24px;
+    background-image: url(../images/media375/zx7-speaker-bg-375.png);
+    background-repeat: no-repeat;
+  }
+  .thrd__component {
+    margin-bottom: 120px;
+  }
+  .thrd__component-inner {
+    flex-direction: column;
+    gap: 24px;
+    min-height: 424px;
+  }
+  .thrd__component-bg {
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/media375/yx1-earphones-img-375.png);
+    background-repeat: no-repeat;
+  }
+  .thrd__component-card {
+    width: 100%;
+    height: 200px;
+    padding: 0 0 0 24px;
+  }
+  .frth__component {
+    margin-bottom: 120px;
+  }
+  .frth__component-inner {
+    min-height: 698px;
+    background-image: url(../images/media375/man-in-earphones-375.png);
+    background-repeat: no-repeat;
+  }
+  .frth__component-info h3 {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1;
+    margin-bottom: 32px;
+  }
+  .footer {
+    padding: 48px 0 38px;
+  }
+  .footer__line {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .footer__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 48px;
+  }
+  .footer__nav img {
+    margin-bottom: 48px;
+  }
+  .footer__menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .footer__info {
+    flex-direction: column;
+    gap: 48px;
+  }
+  .footer__info-text {
+    text-align: center;
+  }
+  .footer__info-text p:first-child {
+    margin-bottom: 48px;
+  }
+  .footer__info-social {
+    position: static;
+  }
+}/*# sourceMappingURL=styles.css.map */
