@@ -1,0 +1,194 @@
+@media(max-width: 420px) {
+   .wrapper {
+      max-width: 375px;
+   }
+
+   .container {
+      max-width: 327px;
+   }
+
+   .header {
+      min-height: 600px;
+      background-image: url(../images/media375/header-bg-375.png);
+      background-position: center;
+      margin-bottom: 92px;
+
+      &__topline {
+         gap: 0;
+         justify-content: space-between;
+         margin-bottom: 108px;
+
+         &>a:last-child {
+            margin: 0;
+         }
+      }
+
+      &__content {
+
+         &-info {
+            width: 328px;
+
+            h2 {
+               font-size: 36px;
+               line-height: 40px;
+               letter-spacing: 1.28571px;
+            }
+
+            h2+p {
+               margin-bottom: 28px;
+            }
+         }
+      }
+
+   }
+
+   .audiotypes {
+      margin-bottom: 120px;
+
+      &__inner {
+         flex-direction: column;
+         gap: 68px;
+      }
+
+      &__card {
+         width: 327px;
+      }
+   }
+
+   .first {
+
+      &__component {
+         margin-bottom: 24px;
+
+         &-inner {
+            min-height: 600px;
+            padding: 0 0 55px 0;
+            background: url(../images/media375/zx9-speaker-bg-375.png), url(../images/media375/zx9-circles-bg-375.png) $orng;
+            background-repeat: no-repeat;
+            background-position: top 55px center, top;
+         }
+
+         &-info {
+            width: 280px;
+
+            h3 {
+               font-size: 36px;
+               line-height: 40px;
+               letter-spacing: 1.28571px;
+               padding: 0 15px;
+            }
+         }
+      }
+
+   }
+
+   .scnd {
+      &__component {
+         margin-bottom: 24px;
+
+         &-inner {
+            padding: 0 0 0 24px;
+            background-image: url(../images/media375/zx7-speaker-bg-375.png);
+            background-repeat: no-repeat;
+            background-position: 0 0;
+         }
+      }
+   }
+
+   .thrd {
+
+      &__component {
+         margin-bottom: 120px;
+
+         &-inner {
+            flex-direction: column;
+            gap: 24px;
+            min-height: 424px;
+         }
+
+         &-bg {
+            width: 100%;
+            height: 200px;
+            background-image: url(../images/media375/yx1-earphones-img-375.png);
+            background-repeat: no-repeat;
+         }
+
+         &-card {
+            width: 100%;
+            height: 200px;
+            padding: 0 0 0 24px;
+         }
+      }
+   }
+
+   .frth {
+
+      &__component {
+         margin-bottom: 120px;
+
+         &-inner {
+            min-height: 698px;
+            background-image: url(../images/media375/man-in-earphones-375.png);
+            background-repeat: no-repeat;
+         }
+
+         &-info {
+
+            h3 {
+               font-size: 28px;
+               line-height: 38px;
+               // @extend %common_title;
+               letter-spacing: 1;
+               margin-bottom: 32px;
+
+            }
+         }
+      }
+   }
+
+   .footer {
+
+      padding: 48px 0 38px;
+
+      &__inner {}
+
+      &__line {
+         left: 50%;
+         transform: translateX(-50%);
+      }
+
+      &__nav {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         margin-bottom: 48px;
+
+         img {
+            margin-bottom: 48px;
+         }
+      }
+
+      &__menu {
+         flex-direction: column;
+         align-items: center;
+         gap: 16px;
+      }
+
+      &__info {
+         flex-direction: column;
+         gap: 48px;
+
+         &-text {
+            text-align: center;
+
+            & p:first-child {
+               margin-bottom: 48px;
+            }
+         }
+
+         &-social {
+            position: static;
+         }
+      }
+   }
+}
