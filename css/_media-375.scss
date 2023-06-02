@@ -90,6 +90,7 @@
             padding: 0 0 0 24px;
             background-image: url(../images/media375/zx7-speaker-bg-375.png);
             background-repeat: no-repeat;
+            background-position: 0 0;
          }
       }
    }
@@ -149,8 +150,7 @@
 
       padding: 48px 0 38px;
 
-      &__inner {
-      }
+      &__inner {}
 
       &__line {
          left: 50%;
@@ -167,21 +167,25 @@
             margin-bottom: 48px;
          }
       }
-      &__menu{
+
+      &__menu {
          flex-direction: column;
          align-items: center;
          gap: 16px;
       }
-      &__info{
+
+      &__info {
          flex-direction: column;
          gap: 48px;
-         &-text{
+
+         &-text {
             text-align: center;
 
             & p:first-child {
                margin-bottom: 48px;
             }
          }
+
          &-social {
             position: static;
          }

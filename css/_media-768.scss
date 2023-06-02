@@ -9,7 +9,6 @@
 
    .header {
       background-image: url(../images/media768/header-bg-768.png);
-      background-position: center;
       margin-bottom: 148px;
 
       &__topline {
@@ -25,6 +24,7 @@
          }
 
          div {
+            display: block;
             width: 16px;
             height: 15px;
             border-top: 3px solid $w;
@@ -176,6 +176,7 @@
             align-items: flex-end;
             background-image: url(../images/media768/man-in-earphones-768.png);
             background-repeat: no-repeat;
+            background-size: 100%;
          }
 
          &-info {
