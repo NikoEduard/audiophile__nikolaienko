@@ -128,3 +128,130 @@ h6 {
    max-width: 1110px;
    margin: 0 auto;
 }
+
+
+
+.header {
+   &__topline {
+      @extend %flexbox;
+      padding-bottom: 36px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      margin-bottom: 128px;
+      gap: 197px;
+
+      div {
+         display: none;
+      }
+
+      &>a:last-child {
+         margin-left: auto;
+      }
+   }
+
+   &__list {
+      display: flex;
+      gap: 34px;
+
+      li a {
+         font-weight: 700;
+         font-size: 13px;
+         line-height: 25px;
+         letter-spacing: 2px;
+         text-transform: uppercase;
+         color: $w;
+         transition: color .7s ease-in;
+      }
+
+      li a:hover {
+         color: $orng;
+      }
+   }
+}
+
+/* ----------------------------------- FOOTER PART ------------------------- */
+
+
+.footer {
+   background-color: #000;
+   padding: 75px 0 48px;
+   position: relative;
+
+   &__inner {}
+
+   &__line {
+      width: 101px;
+      height: 4px;
+      background-color: $orng;
+      position: absolute;
+      top: 0;
+   }
+
+   &__nav {
+      @extend %flexbox;
+      justify-content: space-between;
+      margin-bottom: 36px;
+   }
+
+   &__menu {
+      display: flex;
+      gap: 34px;
+
+      li a {
+         font-weight: 700;
+         font-size: 13px;
+         line-height: 25px;
+         letter-spacing: 2px;
+         text-transform: uppercase;
+         color: $w;
+         transition: color .7s ease-in;
+
+         &:hover {
+            color: $orng;
+         }
+      }
+   }
+
+   &__info {
+      @extend %flexbox;
+      justify-content: space-between;
+
+      &-text {
+         max-width: 540px;
+
+         p {
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            color: $w;
+            opacity: 0.5;
+
+            &:first-child {
+               font-weight: 500;
+               margin-bottom: 56px;
+            }
+         }
+      }
+
+      &-social {
+
+         ul {
+            @extend %flexbox;
+            gap: 16px;
+         }
+      }
+   }
+
+   &__social {
+
+      &-icon {
+
+         svg path {
+            transition: fill .7s ease-in;
+
+            &:hover {
+               fill: $orng;
+            }
+         }
+      }
+   }
+}
