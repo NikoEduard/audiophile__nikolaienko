@@ -86,11 +86,12 @@ h6 {
   font-weight: 400;
 }
 
-.xx99mark2__inner,
+.frth__component-inner, .scnd__component-inner, .first__component-inner, .audiotypes__card, .footer__info-social ul, .footer__info, .footer__nav, .xx99mark2__inner,
 .xx99mark1__inner,
 .xx59__inner,
 .zx9__inner,
-.zx7__inner, .frth__component-inner, .scnd__component-inner, .first__component-inner, .audiotypes__card, .footer__info-social ul, .footer__info, .footer__nav, .header__topline {
+.zx7__inner,
+.yx1__inner, .header__topline {
   display: flex;
   align-items: center;
 }
@@ -104,11 +105,12 @@ h6 {
   margin-bottom: 32px;
 }
 
-.xx99mark2__inner-card button,
+.header__content-info > button, .xx99mark2__inner-card button,
 .xx99mark1__inner-card button,
 .xx59__inner-card button,
 .zx9__inner-card button,
-.zx7__inner-card button, .header__content-info > button {
+.zx7__inner-card button,
+.yx1__inner-card button {
   width: 160px;
   height: 48px;
   background-color: #d87d4a;
@@ -124,7 +126,8 @@ h6 {
 .xx99mark1__inner-card h3,
 .xx59__inner-card h3,
 .zx9__inner-card h3,
-.zx7__inner-card h3 {
+.zx7__inner-card h3,
+.yx1__inner-card h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 44px;
@@ -138,7 +141,8 @@ h6 {
 .xx99mark1__inner-card p,
 .xx59__inner-card p,
 .zx9__inner-card p,
-.zx7__inner-card p {
+.zx7__inner-card p,
+.yx1__inner-card p {
   font-weight: 500;
   font-size: 15px;
   line-height: 25px;
@@ -151,7 +155,8 @@ h6 {
 .xx99mark1__inner-undertitle,
 .xx59__inner-undertitle,
 .zx9__inner-undertitle,
-.zx7__inner-undertitle {
+.zx7__inner-undertitle,
+.yx1__inner-undertitle {
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
@@ -214,6 +219,40 @@ h6 {
   color: #d87d4a;
 }
 
+.xx99mark2,
+.xx99mark1,
+.xx59,
+.zx9,
+.zx7,
+.yx1 {
+  margin-bottom: 160px;
+}
+.xx99mark2__inner,
+.xx99mark1__inner,
+.xx59__inner,
+.zx9__inner,
+.zx7__inner,
+.yx1__inner {
+  gap: 125px;
+}
+.xx99mark2__inner-bg,
+.xx99mark1__inner-bg,
+.xx59__inner-bg,
+.zx9__inner-bg,
+.zx7__inner-bg,
+.yx1__inner-bg {
+  width: 540px;
+  height: 560px;
+  border-radius: 8px;
+}
+.xx99mark2__inner-card,
+.xx99mark1__inner-card,
+.xx59__inner-card,
+.zx9__inner-card,
+.zx7__inner-card,
+.yx1__inner-card {
+  width: 445px;
+}
 /* ----------------------------------- FOOTER PART ------------------------- */
 .footer {
   background-color: #000;
@@ -535,36 +574,6 @@ h6 {
   text-align: center;
 }
 
-.xx99mark2,
-.xx99mark1,
-.xx59,
-.zx9,
-.zx7 {
-  margin-bottom: 160px;
-}
-.xx99mark2__inner,
-.xx99mark1__inner,
-.xx59__inner,
-.zx9__inner,
-.zx7__inner {
-  gap: 125px;
-}
-.xx99mark2__inner-bg,
-.xx99mark1__inner-bg,
-.xx59__inner-bg,
-.zx9__inner-bg,
-.zx7__inner-bg {
-  width: 540px;
-  height: 560px;
-  border-radius: 8px;
-}
-.xx99mark2__inner-card,
-.xx99mark1__inner-card,
-.xx59__inner-card,
-.zx9__inner-card,
-.zx7__inner-card {
-  width: 445px;
-}
 .xx99mark2__inner-bg {
   background-image: url(../images/headphones/xx99mark2.png);
 }
@@ -586,6 +595,10 @@ h6 {
 
 .zx7__inner-bg {
   background-image: url(../images/speakers/xz9-img.png);
+}
+
+.yx1__inner-bg {
+  background-image: url(../images/earphones/yx1-img.png);
 }
 
 @media (max-width: 1050px) {

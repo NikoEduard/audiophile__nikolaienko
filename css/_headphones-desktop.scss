@@ -7,7 +7,8 @@
 .mb98 {
    margin-bottom: 98px;
 }
-.mb160{
+
+.mb160 {
    margin-bottom: 160px;
 }
 
@@ -23,49 +24,6 @@
          text-transform: uppercase;
          color: #FFFFFF;
          text-align: center;
-      }
-   }
-}
-
-
-
-
-
-.xx99mark2,
-.xx99mark1,
-.xx59,
-.zx9,
-.zx7 {
-   margin-bottom: 160px;
-
-   &__inner {
-      @extend %flexbox;
-      gap: 125px;
-
-      &-bg {
-         width: 540px;
-         height: 560px;
-         border-radius: 8px;
-      }
-
-      &-card {
-         width: 445px;
-
-         h3 {
-            @extend %products_title;
-         }
-
-         p {
-            @extend %products_txt;
-         }
-
-         button {
-            @extend %orng_btn;
-         }
-      }
-
-      &-undertitle {
-         @extend %products_undertitle;
       }
    }
 }
