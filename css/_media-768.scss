@@ -6,7 +6,7 @@
    .container {
       max-width: 689px;
    }
-
+   
    .header {
       background-image: url(../images/media768/header-bg-768.png);
       margin-bottom: 148px;
@@ -62,6 +62,10 @@
          }
       }
 
+   }
+   .bg {
+      background-image: none;
+      background-color: #000;
    }
 
    .audiotypes {

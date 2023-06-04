@@ -715,6 +715,10 @@ h6 {
     width: 379px;
     text-align: center;
   }
+  .bg {
+    background-image: none;
+    background-color: #000;
+  }
   .audiotypes {
     margin-bottom: 96px;
   }
@@ -876,6 +880,10 @@ h6 {
   }
   .header__content-info h2 + p {
     margin-bottom: 28px;
+  }
+  .bg {
+    background-image: none;
+    background-color: #000;
   }
   .audiotypes {
     margin-bottom: 120px;
