@@ -37,15 +37,7 @@
          }
 
          &>button {
-            width: 160px;
-            height: 48px;
-            background: #d87d4a;
-            font-weight: 700;
-            font-size: 13px;
-            line-height: 18px;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            color: $w;
+            @extend %orng_btn;
             transition: background .7s ease-in;
          }
 

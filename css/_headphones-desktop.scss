@@ -1,5 +1,99 @@
-
-.bg{
+.bg {
    background-image: none;
    background-color: #000;
+   min-height: 336px
+}
+
+.mb98 {
+   margin-bottom: 98px;
+}
+.mb160{
+   margin-bottom: 160px;
+}
+
+.header {
+
+   &__title {
+
+      h1 {
+         font-weight: 700;
+         font-size: 40px;
+         line-height: 44px;
+         letter-spacing: 1.42857px;
+         text-transform: uppercase;
+         color: #FFFFFF;
+         text-align: center;
+      }
+   }
+}
+
+
+
+
+
+.xx99mark2,
+.xx99mark1,
+.xx59 {
+   margin-bottom: 160px;
+
+   &__inner {
+      @extend %flexbox;
+      gap: 125px;
+
+      &-bg {
+         width: 540px;
+         height: 560px;
+         border-radius: 8px;
+      }
+
+      &-card {
+         width: 445px;
+
+         h3 {
+            @extend %products_title;
+         }
+
+         p {
+            @extend %products_txt;
+         }
+
+         button {
+            @extend %orng_btn;
+         }
+      }
+
+      &-undertitle {
+         @extend %products_undertitle;
+      }
+   }
+}
+
+.xx99mark2 {
+   &__inner {
+
+      &-bg {
+         background-image: url(../images/headphones/xx99mark2.png);
+      }
+   }
+}
+
+
+.xx99mark1 {
+
+   &__inner {
+      &-bg {
+         background-image: url(../images/headphones/xx99mark1.png);
+      }
+   }
+}
+
+
+.xx59 {
+   margin-bottom: 240px;
+
+   &__inner {
+      &-bg {
+         background-image: url(../images/headphones/xx59.png);
+      }
+   }
 }

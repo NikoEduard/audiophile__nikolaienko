@@ -103,6 +103,47 @@ h6 {
    margin-bottom: 32px;
 }
 
+%orng_btn {
+   width: 160px;
+   height: 48px;
+   background-color: $orng;
+   font-weight: 700;
+   font-size: 13px;
+   line-height: 18px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: $w;
+}
+
+%products_undertitle {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   letter-spacing: 10px;
+   text-transform: uppercase;
+   color: #D87D4A;
+   margin-bottom: 16px;
+}
+
+%products_title {
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 44px;
+   letter-spacing: 1.42857px;
+   text-transform: uppercase;
+   color: #000000;
+   margin-bottom: 32px;
+}
+
+%products_txt {
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 25px;
+   color: #000000;
+   opacity: 0.5;
+   margin-bottom: 40px;
+}
+
 %common_btn {
    width: 160px;
    height: 48px;
@@ -167,6 +208,7 @@ h6 {
       }
    }
 }
+
 
 /* ----------------------------------- FOOTER PART ------------------------- */
 

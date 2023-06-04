@@ -86,7 +86,9 @@ h6 {
   font-weight: 400;
 }
 
-.frth__component-inner, .scnd__component-inner, .first__component-inner, .audiotypes__card, .footer__info-social ul, .footer__info, .footer__nav, .header__topline {
+.xx99mark2__inner,
+.xx99mark1__inner,
+.xx59__inner, .frth__component-inner, .scnd__component-inner, .first__component-inner, .audiotypes__card, .footer__info-social ul, .footer__info, .footer__nav, .header__topline {
   display: flex;
   align-items: center;
 }
@@ -98,6 +100,55 @@ h6 {
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 32px;
+}
+
+.xx99mark2__inner-card button,
+.xx99mark1__inner-card button,
+.xx59__inner-card button, .header__content-info > button {
+  width: 160px;
+  height: 48px;
+  background-color: #d87d4a;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.xx99mark2__inner-undertitle,
+.xx99mark1__inner-undertitle,
+.xx59__inner-undertitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #D87D4A;
+  margin-bottom: 16px;
+}
+
+.xx99mark2__inner-card h3,
+.xx99mark1__inner-card h3,
+.xx59__inner-card h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.42857px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+.xx99mark2__inner-card p,
+.xx99mark1__inner-card p,
+.xx59__inner-card p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  opacity: 0.5;
+  margin-bottom: 40px;
 }
 
 .thrd__component-card button, .scnd__component-inner button {
@@ -247,15 +298,6 @@ h6 {
   max-width: 349px;
 }
 .header__content-info > button {
-  width: 160px;
-  height: 48px;
-  background: #d87d4a;
-  font-weight: 700;
-  font-size: 13px;
-  line-height: 18px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #fff;
   transition: background 0.7s ease-in;
 }
 .header__content-info > button:hover {
@@ -457,6 +499,67 @@ h6 {
   font-size: 15px;
   line-height: 25px;
   opacity: 0.5;
+}
+
+.bg {
+  background-image: none;
+  background-color: #000;
+  min-height: 336px;
+}
+
+.mb98 {
+  margin-bottom: 98px;
+}
+
+.mb160 {
+  margin-bottom: 160px;
+}
+
+.header__title h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.42857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.xx99mark2,
+.xx99mark1,
+.xx59 {
+  margin-bottom: 160px;
+}
+.xx99mark2__inner,
+.xx99mark1__inner,
+.xx59__inner {
+  gap: 125px;
+}
+.xx99mark2__inner-bg,
+.xx99mark1__inner-bg,
+.xx59__inner-bg {
+  width: 540px;
+  height: 560px;
+  border-radius: 8px;
+}
+.xx99mark2__inner-card,
+.xx99mark1__inner-card,
+.xx59__inner-card {
+  width: 445px;
+}
+.xx99mark2__inner-bg {
+  background-image: url(../images/headphones/xx99mark2.png);
+}
+
+.xx99mark1__inner-bg {
+  background-image: url(../images/headphones/xx99mark1.png);
+}
+
+.xx59 {
+  margin-bottom: 240px;
+}
+.xx59__inner-bg {
+  background-image: url(../images/headphones/xx59.png);
 }
 
 @media (max-width: 1050px) {
