@@ -115,15 +115,7 @@ h6 {
    color: $w;
 }
 
-%products_undertitle {
-   font-weight: 400;
-   font-size: 14px;
-   line-height: 19px;
-   letter-spacing: 10px;
-   text-transform: uppercase;
-   color: #D87D4A;
-   margin-bottom: 16px;
-}
+
 
 %products_title {
    font-weight: 700;
@@ -142,6 +134,16 @@ h6 {
    color: #000000;
    opacity: 0.5;
    margin-bottom: 40px;
+}
+
+%products_undertitle {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   letter-spacing: 10px;
+   text-transform: uppercase;
+   color: #D87D4A;
+   margin-bottom: 16px;
 }
 
 %common_btn {
