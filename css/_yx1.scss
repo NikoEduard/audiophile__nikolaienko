@@ -1,0 +1,38 @@
+.productyx1__inner-bg {
+   background-image: url(../images/earphones/yx1-img.png);
+}
+
+.galleryyx1 {
+
+   &__product {
+
+
+      &-inner {}
+   }
+
+
+   &__first-img {
+      background-image: url(../images/earphones/yx1/yx1-img1.png);
+   }
+
+   &__second-img {
+      background-image: url(../images/earphones/yx1/yx1-img2.png);
+   }
+
+
+   &__third-img {
+      background-image: url(../images/earphones/yx1/yx1-img3.png);
+   }
+}
+
+.offersyx1__inner-card:nth-child(1) .offersyx1__card-bg {
+   background-image: url(../images/offers/xx99mark1-img.png);
+}
+
+.offersyx1__inner-card:nth-child(2) .offersyx1__card-bg {
+   background-image: url(../images/offers/xx59-img.png);
+}
+
+.offersyx1__inner-card:nth-child(3) .offersyx1__card-bg {
+   background-image: url(../images/offers/zx9-img.png);
+}

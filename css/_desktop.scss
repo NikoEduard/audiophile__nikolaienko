@@ -76,6 +76,8 @@
       border-radius: 8px;
       padding-top: 65px;
       position: relative;
+      cursor: pointer;
+      transition: all .3s ease-in;
 
       img {
          position: absolute;
@@ -110,7 +112,7 @@
          opacity: 0.5;
          padding-right: 18px;
          position: relative;
-         transition: color .7s ease-in;
+         transition: all .3s ease-in;
       }
 
       a::before {
@@ -124,8 +126,12 @@
          right: 0;
       }
 
-      a:hover {
-         color: $orng;
+      &:hover {
+         background: #c1c1c1;
+
+         a {
+            color: $orng;
+         }
       }
    }
 }

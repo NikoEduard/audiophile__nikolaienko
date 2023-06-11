@@ -1,0 +1,38 @@
+.productzx9__inner-bg {
+   background-image: url(../images/speakers/xz9-img.png);
+}
+
+.galleryzx9 {
+
+   &__product {
+
+
+      &-inner {}
+   }
+
+
+   &__first-img {
+      background-image: url(../images/speakers/zx9/zx9-img1.png);
+   }
+
+   &__second-img {
+      background-image: url(../images/speakers/zx9/zx9-img2.png);
+   }
+
+
+   &__third-img {
+      background-image: url(../images/speakers/zx9/zx9-img3.png);
+   }
+}
+
+.offerszx9__inner-card:nth-child(1) .offerszx9__card-bg {
+   background-image: url(../images/offers/zx7-img.png);
+}
+
+.offerszx9__inner-card:nth-child(2) .offerszx9__card-bg {
+   background-image: url(../images/offers/xx99mark1-img.png);
+}
+
+.offerszx9__inner-card:nth-child(3) .offerszx9__card-bg {
+   background-image: url(../images/offers/xx59-img.png);
+}

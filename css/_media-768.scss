@@ -1,3 +1,5 @@
+/*-----------------------------GLOBAL and INDEX media queries----------------------------*/
+
 @media (max-width: 800px) {
    .wrapper {
       max-width: 768px;
@@ -6,7 +8,7 @@
    .container {
       max-width: 689px;
    }
-   
+
    .header {
       background-image: url(../images/media768/header-bg-768.png);
       margin-bottom: 148px;
@@ -63,9 +65,15 @@
       }
 
    }
+
    .bg {
       background-image: none;
       background-color: #000;
+      margin-bottom: 120px;
+
+      .header__topline {
+         margin-bottom: 105px;
+      }
    }
 
    .audiotypes {
@@ -216,5 +224,279 @@
          }
       }
    }
+
+
+   .xx99mark2,
+   .xx99mark1,
+   .xx59,
+   .zx9,
+   .zx7,
+   .yx1 {
+      margin-bottom: 120px;
+
+      &__inner {
+         flex-direction: column;
+         gap: 52px;
+
+         &-bg {
+            width: 689px;
+            height: 352px;
+         }
+
+         &-card {
+            width: 507px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h3 {
+               text-align: center;
+            }
+
+            p {
+               text-align: center;
+            }
+         }
+      }
+   }
+
+   /*---------------------------------HEADPHONES page media queries--------------------------*/
+
+   .xx99mark2 {
+      &__inner {
+
+         &-bg {
+            background-image: url(../images/media768/headphones/xx99mark2-768.png);
+            // background-repeat: no-repeat;
+            background-position: center;
+         }
+      }
+   }
+
+   .xx99mark1 {
+      &__inner {
+
+         &-bg {
+            order: 1;
+            background-image: url(../images/media768/headphones/xx99mark1-768.png);
+         }
+
+         &-card {
+            order: 2;
+         }
+      }
+   }
+
+   .xx59 {
+      margin-bottom: 172px;
+
+      &__inner {
+
+         &-bg {
+            background-image: url(../images/media768/headphones/xx59-768.png);
+         }
+      }
+   }
+
+   /*---------------------------------SPEAKERS page media queries--------------------------*/
+
+   .zx9 {
+      &__inner {
+
+         &-bg {
+            background-image: url(../images/media768/speakers/zx9-768.png);
+            // background-repeat: no-repeat;
+            background-position: center;
+         }
+      }
+   }
+
+
+   .zx7 {
+      margin-bottom: 172px;
+
+      &__inner {
+
+         &-bg {
+            order: 1;
+            background-image: url(../images/media768/speakers/zx7-768.png);
+         }
+
+         &-card {
+            order: 2;
+         }
+      }
+   }
+
+   /*---------------------------------EARPHONES page media queries--------------------------*/
+
+   .yx1 {
+      &__inner {
+
+         &-bg {
+            background-image: url(../images/media768/earphones/yx1-768.png);
+            // background-repeat: no-repeat;
+            background-position: center;
+         }
+      }
+   }
+
+
+   /*--------------------------------PRODUCTS pages common media queries------------------*/
+
+
+   .productxx59,
+   .productxx99m1,
+   .productxx99m2,
+   .productyx1,
+   .productzx7,
+   .productzx9 {
+
+
+      &__inner {
+         margin-bottom: 120px;
+         gap: 69px;
+
+         &-bg {
+            width: 281px;
+            height: 480px;
+            background-repeat: no-repeat;
+         }
+      }
+   }
+
+   .describexx59,
+   .describexx99m1,
+   .describexx99m2,
+   .describeyx1,
+   .describezx7,
+   .describezx9 {
+
+      &__product {
+         margin-bottom: 120px;
+
+         &-inner {
+            gap: 120px;
+            flex-direction: column;
+         }
+
+         &-features {
+            width: 100%;
+         }
+
+         &-inbox {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+         }
+      }
+   }
+
+   .galleryxx59,
+   .galleryxx99m1,
+   .galleryxx99m2,
+   .galleryyx1,
+   .galleryzx7,
+   .galleryzx9 {
+
+      &__product {
+         margin-bottom: 120px;
+
+         &-inner {
+            gap: 18px;
+
+            &>div:nth-child(1) {
+               gap: 18px;
+            }
+         }
+      }
+
+      &__first-img {
+         width: 277px;
+         max-height: 174px;
+         background-size: contain;
+      }
+
+      &__second-img {
+         width: 277px;
+         max-height: 174px;
+         background-size: contain;
+      }
+
+      &__third-img {
+         width: 395px;
+         height: 367px;
+         border-radius: 8px;
+      }
+   }
+
+   .offersxx59,
+   .offersxx99m1,
+   .offersxx99m2,
+   .offersyx1,
+   .offerszx7,
+   .offerszx9 {
+      margin-bottom: 172px;
+
+      &__inner {
+
+         &-cards {
+            gap: 11px;
+         }
+      }
+   }
+
+   .offersxx99m2__inner-card:nth-child(1) .offersxx99m2__card-bg,
+   .offersxx99m1__inner-card:nth-child(1) .offersxx99m1__card-bg,
+   .offersxx59__inner-card:nth-child(1) .offersxx59__card-bg,
+   .offersyx1__inner-card:nth-child(1) .offersyx1__card-bg,
+   .offerszx7__inner-card:nth-child(1) .offerszx7__card-bg,
+   .offerszx9__inner-card:nth-child(1) .offerszx9__card-bg {
+      width: 223px;
+   }
+
+   .offersxx99m2__inner-card:nth-child(2) .offersxx99m2__card-bg,
+   .offersxx99m1__inner-card:nth-child(2) .offersxx99m1__card-bg,
+   .offersxx59__inner-card:nth-child(2) .offersxx59__card-bg,
+   .offersyx1__inner-card:nth-child(2) .offersyx1__card-bg,
+   .offerszx7__inner-card:nth-child(2) .offerszx7__card-bg,
+   .offerszx9__inner-card:nth-child(2) .offerszx9__card-bg {
+      width: 223px;
+   }
+
+   .offersxx99m2__inner-card:nth-child(3) .offersxx99m2__card-bg,
+   .offersxx99m1__inner-card:nth-child(3) .offersxx99m1__card-bg,
+   .offersxx59__inner-card:nth-child(3) .offersxx59__card-bg,
+   .offersyx1__inner-card:nth-child(3) .offersyx1__card-bg,
+   .offerszx7__inner-card:nth-child(3) .offerszx7__card-bg,
+   .offerszx9__inner-card:nth-child(3) .offerszx9__card-bg {
+      width: 223px;
+   }
+
+   .productxx59__inner-bg {
+      background-image: url(../images/media768/products/xx59-prod-768.png);
+   }
+
+   .productxx99m2__inner-bg {
+      background-image: url(../images/media768/products/xx99m2-prod-768.png);
+   }
+
+   .productxx99m1__inner-bg {
+      background-image: url(../images/media768/products/xx99m1-prod-768.png);
+   }
+
+   .productyx1__inner-bg {
+      background-image: url(../images/media768/products/yx1-prod-768.png);
+   }
+
+   .productzx7__inner-bg {
+      background-image: url(../images/media768/products/zx7-prod-768.png);
+   }
+
+   .productzx9__inner-bg {
+      background-image: url(../images/media768/products/zx9-prod-768.png);
+   }
+
+
 
 }

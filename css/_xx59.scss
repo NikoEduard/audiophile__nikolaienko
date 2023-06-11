@@ -1,0 +1,39 @@
+.productxx59__inner-bg {
+   background-image: url(../images/headphones/xx59.png);
+}
+
+.galleryxx59 {
+
+   &__product {
+
+
+      &-inner {}
+   }
+
+
+   &__first-img {
+
+      background-image: url(../images/headphones/xx59/xx59-img1.png);
+   }
+
+   &__second-img {
+      background-image: url(../images/headphones/xx59/xx59-img2.png);
+   }
+
+
+   &__third-img {
+      background-image: url(../images/headphones/xx59/xx59-img3.png);
+   }
+}
+
+.offersxx59__inner-card:nth-child(1) .offersxx59__card-bg {
+   background-image: url(../images/offers/xx99mark2-img.png);
+}
+
+.offersxx59__inner-card:nth-child(2) .offersxx59__card-bg {
+   background-image: url(../images/offers/xx99mark1-img.png);
+}
+
+.offersxx59__inner-card:nth-child(3) .offersxx59__card-bg {
+   background-image: url(../images/offers/zx9-img.png);
+}

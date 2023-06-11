@@ -18,7 +18,12 @@
 
 
 
-.product {
+.productxx59,
+.productxx99m1,
+.productxx99m2,
+.productyx1,
+.productzx7,
+.productzx9 {
 
    &__inner {
       @extend %flexbox;
@@ -27,10 +32,14 @@
 
 
       &-bg {
-         // width: 540px;
+         width: 540px;
+         height: 560px;
+         background-position: center;
+         border-radius: 8px;
       }
 
       &-card {
+         width: 445px;
 
          h3 {
             @extend %products_title;
@@ -104,7 +113,12 @@
 }
 
 
-.describe {
+.describexx59,
+.describexx99m1,
+.describexx99m2,
+.describeyx1,
+.describezx7,
+.describezx9 {
 
 
    &__product {
@@ -181,7 +195,12 @@
    }
 }
 
-.gallery {
+.galleryxx59,
+.galleryxx99m1,
+.galleryxx99m2,
+.galleryyx1,
+.galleryzx7,
+.galleryzx9 {
 
    &__product {
 
@@ -190,18 +209,44 @@
          display: flex;
          gap: 32px;
 
-         div:nth-child(1) {
+         &>div:nth-child(1) {
             display: flex;
             flex-direction: column;
             gap: 32px;
          }
       }
    }
+
+   &__first-img {
+      width: 445px;
+      height: 280px;
+      background-position: center;
+      background-size: contain;
+   }
+
+   &__second-img {
+      width: 445px;
+      height: 280px;
+      background-position: center;
+      background-size: contain;
+   }
+
+   &__third-img {
+      width: 635px;
+      height: 592px;
+      background-position: center;
+      background-size: contain;
+   }
 }
 
 
 
-.offers {
+.offersxx59,
+.offersxx99m1,
+.offersxx99m2,
+.offersyx1,
+.offerszx7,
+.offerszx9 {
    margin-bottom: 240px;
 
    &__inner {
@@ -218,13 +263,13 @@
 
       &-cards {
          display: flex;
+         justify-content: center;
          gap: 30px;
-         flex-wrap: wrap   ;
       }
 
 
       &-card {
-         width: 350px;
+         max-width: 350px;
          @extend %flexbox;
          flex-direction: column;
       }
@@ -235,9 +280,7 @@
 
 
       &-bg {
-         img {
-            margin-bottom: 40px;
-         }
+         margin-bottom: 40px;
       }
 
 
@@ -256,4 +299,28 @@
          @extend %orng_btn;
       }
    }
+}
+
+.offersxx99m2__inner-card:nth-child(1) .offersxx99m2__card-bg,
+.offersxx99m1__inner-card:nth-child(1) .offersxx99m1__card-bg,
+.offersxx59__inner-card:nth-child(1) .offersxx59__card-bg,
+.offersyx1__inner-card:nth-child(1) .offersyx1__card-bg,
+.offerszx7__inner-card:nth-child(1) .offerszx7__card-bg,
+.offerszx9__inner-card:nth-child(1) .offerszx9__card-bg,
+.offersxx99m2__inner-card:nth-child(2) .offersxx99m2__card-bg,
+.offersxx99m1__inner-card:nth-child(2) .offersxx99m1__card-bg,
+.offersxx59__inner-card:nth-child(2) .offersxx59__card-bg,
+.offersyx1__inner-card:nth-child(2) .offersyx1__card-bg,
+.offerszx7__inner-card:nth-child(2) .offerszx7__card-bg,
+.offerszx9__inner-card:nth-child(2) .offerszx9__card-bg,
+.offersxx99m2__inner-card:nth-child(3) .offersxx99m2__card-bg,
+.offersxx99m1__inner-card:nth-child(3) .offersxx99m1__card-bg,
+.offersxx59__inner-card:nth-child(3) .offersxx59__card-bg,
+.offersyx1__inner-card:nth-child(3) .offersyx1__card-bg,
+.offerszx7__inner-card:nth-child(3) .offerszx7__card-bg,
+.offerszx9__inner-card:nth-child(3) .offerszx9__card-bg {
+   width: 350px;
+   height: 318px;
+   background-position: center;
+   border-radius: 8px;
 }

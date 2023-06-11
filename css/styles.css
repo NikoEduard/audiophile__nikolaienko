@@ -86,7 +86,27 @@ h6 {
   font-weight: 400;
 }
 
-.offers__inner-card, .product__inner-counter div, .product__inner-counter, .product__inner, .frth__component-inner, .scnd__component-inner, .first__component-inner, .audiotypes__card, .footer__info-social ul, .footer__info, .footer__nav, .xx99mark2__inner,
+.offersxx59__inner-card,
+.offersxx99m1__inner-card,
+.offersxx99m2__inner-card,
+.offersyx1__inner-card,
+.offerszx7__inner-card,
+.offerszx9__inner-card, .productxx59__inner-counter div,
+.productxx99m1__inner-counter div,
+.productxx99m2__inner-counter div,
+.productyx1__inner-counter div,
+.productzx7__inner-counter div,
+.productzx9__inner-counter div, .productxx59__inner-counter,
+.productxx99m1__inner-counter,
+.productxx99m2__inner-counter,
+.productyx1__inner-counter,
+.productzx7__inner-counter,
+.productzx9__inner-counter, .productxx59__inner,
+.productxx99m1__inner,
+.productxx99m2__inner,
+.productyx1__inner,
+.productzx7__inner,
+.productzx9__inner, .frth__component-inner, .scnd__component-inner, .first__component-inner, .audiotypes__card, .footer__info-social ul, .footer__info, .footer__nav, .xx99mark2__inner,
 .xx99mark1__inner,
 .xx59__inner,
 .zx9__inner,
@@ -105,7 +125,17 @@ h6 {
   margin-bottom: 32px;
 }
 
-.offers__card-button, .product__inner-btn, .header__content-info > button, .xx99mark2__inner-card button,
+.offersxx59__card-button,
+.offersxx99m1__card-button,
+.offersxx99m2__card-button,
+.offersyx1__card-button,
+.offerszx7__card-button,
+.offerszx9__card-button, .productxx59__inner-btn,
+.productxx99m1__inner-btn,
+.productxx99m2__inner-btn,
+.productyx1__inner-btn,
+.productzx7__inner-btn,
+.productzx9__inner-btn, .header__content-info > button, .xx99mark2__inner-card button,
 .xx99mark1__inner-card button,
 .xx59__inner-card button,
 .zx9__inner-card button,
@@ -116,7 +146,17 @@ h6 {
   background-color: #d87d4a;
   transition: background 0.7s ease-in;
 }
-.offers__card-button a, .product__inner-btn a, .header__content-info > button a, .xx99mark2__inner-card button a,
+.offersxx59__card-button a,
+.offersxx99m1__card-button a,
+.offersxx99m2__card-button a,
+.offersyx1__card-button a,
+.offerszx7__card-button a,
+.offerszx9__card-button a, .productxx59__inner-btn a,
+.productxx99m1__inner-btn a,
+.productxx99m2__inner-btn a,
+.productyx1__inner-btn a,
+.productzx7__inner-btn a,
+.productzx9__inner-btn a, .header__content-info > button a, .xx99mark2__inner-card button a,
 .xx99mark1__inner-card button a,
 .xx59__inner-card button a,
 .zx9__inner-card button a,
@@ -129,7 +169,17 @@ h6 {
   text-transform: uppercase;
   color: #fff;
 }
-.offers__card-button:hover, .product__inner-btn:hover, .header__content-info > button:hover, .xx99mark2__inner-card button:hover,
+.offersxx59__card-button:hover,
+.offersxx99m1__card-button:hover,
+.offersxx99m2__card-button:hover,
+.offersyx1__card-button:hover,
+.offerszx7__card-button:hover,
+.offerszx9__card-button:hover, .productxx59__inner-btn:hover,
+.productxx99m1__inner-btn:hover,
+.productxx99m2__inner-btn:hover,
+.productyx1__inner-btn:hover,
+.productzx7__inner-btn:hover,
+.productzx9__inner-btn:hover, .header__content-info > button:hover, .xx99mark2__inner-card button:hover,
 .xx99mark1__inner-card button:hover,
 .xx59__inner-card button:hover,
 .zx9__inner-card button:hover,
@@ -138,7 +188,12 @@ h6 {
   background: #FBAF85;
 }
 
-.product__inner-card h3, .xx99mark2__inner-card h3,
+.productxx59__inner-card h3,
+.productxx99m1__inner-card h3,
+.productxx99m2__inner-card h3,
+.productyx1__inner-card h3,
+.productzx7__inner-card h3,
+.productzx9__inner-card h3, .xx99mark2__inner-card h3,
 .xx99mark1__inner-card h3,
 .xx59__inner-card h3,
 .zx9__inner-card h3,
@@ -153,7 +208,12 @@ h6 {
   margin-bottom: 32px;
 }
 
-.product__inner-txt, .xx99mark2__inner-card p,
+.productxx59__inner-txt,
+.productxx99m1__inner-txt,
+.productxx99m2__inner-txt,
+.productyx1__inner-txt,
+.productzx7__inner-txt,
+.productzx9__inner-txt, .xx99mark2__inner-card p,
 .xx99mark1__inner-card p,
 .xx59__inner-card p,
 .zx9__inner-card p,
@@ -167,7 +227,12 @@ h6 {
   margin-bottom: 40px;
 }
 
-.product__inner-undertitle, .xx99mark2__inner-undertitle,
+.productxx59__inner-undertitle,
+.productxx99m1__inner-undertitle,
+.productxx99m2__inner-undertitle,
+.productyx1__inner-undertitle,
+.productzx7__inner-undertitle,
+.productzx9__inner-undertitle, .xx99mark2__inner-undertitle,
 .xx99mark1__inner-undertitle,
 .xx59__inner-undertitle,
 .zx9__inner-undertitle,
@@ -392,6 +457,8 @@ h6 {
   border-radius: 8px;
   padding-top: 65px;
   position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
 }
 .audiotypes__card img {
   position: absolute;
@@ -423,7 +490,7 @@ h6 {
   opacity: 0.5;
   padding-right: 18px;
   position: relative;
-  transition: color 0.7s ease-in;
+  transition: all 0.3s ease-in;
 }
 .audiotypes__card a::before {
   content: "";
@@ -435,7 +502,10 @@ h6 {
   top: 3px;
   right: 0;
 }
-.audiotypes__card a:hover {
+.audiotypes__card:hover {
+  background: #c1c1c1;
+}
+.audiotypes__card:hover a {
   color: #d87d4a;
 }
 
@@ -595,10 +665,12 @@ h6 {
 
 .xx99mark2__inner-bg {
   background-image: url(../images/headphones/xx99mark2.png);
+  background-position: center;
 }
 
 .xx99mark1__inner-bg {
   background-image: url(../images/headphones/xx99mark1.png);
+  background-position: center;
 }
 
 .xx59 {
@@ -606,18 +678,22 @@ h6 {
 }
 .xx59__inner-bg {
   background-image: url(../images/headphones/xx59.png);
+  background-position: center;
 }
 
 .zx9__inner-bg {
   background-image: url(../images/speakers/xz9-img.png);
+  background-position: center;
 }
 
 .zx7__inner-bg {
   background-image: url(../images/speakers/zx7-img.png);
+  background-position: center;
 }
 
 .yx1__inner-bg {
   background-image: url(../images/earphones/yx1-img.png);
+  background-position: center;
 }
 
 .mb79 {
@@ -638,10 +714,39 @@ h6 {
   margin-bottom: 56px;
 }
 
-.product__inner {
+.productxx59__inner,
+.productxx99m1__inner,
+.productxx99m2__inner,
+.productyx1__inner,
+.productzx7__inner,
+.productzx9__inner {
   gap: 125px;
 }
-.product__inner-price {
+.productxx59__inner-bg,
+.productxx99m1__inner-bg,
+.productxx99m2__inner-bg,
+.productyx1__inner-bg,
+.productzx7__inner-bg,
+.productzx9__inner-bg {
+  width: 540px;
+  height: 560px;
+  background-position: center;
+  border-radius: 8px;
+}
+.productxx59__inner-card,
+.productxx99m1__inner-card,
+.productxx99m2__inner-card,
+.productyx1__inner-card,
+.productzx7__inner-card,
+.productzx9__inner-card {
+  width: 445px;
+}
+.productxx59__inner-price,
+.productxx99m1__inner-price,
+.productxx99m2__inner-price,
+.productyx1__inner-price,
+.productzx7__inner-price,
+.productzx9__inner-price {
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
@@ -650,10 +755,20 @@ h6 {
   color: #000000;
   margin-bottom: 47px;
 }
-.product__inner-counter {
+.productxx59__inner-counter,
+.productxx99m1__inner-counter,
+.productxx99m2__inner-counter,
+.productyx1__inner-counter,
+.productzx7__inner-counter,
+.productzx9__inner-counter {
   gap: 16px;
 }
-.product__inner-counter div {
+.productxx59__inner-counter div,
+.productxx99m1__inner-counter div,
+.productxx99m2__inner-counter div,
+.productyx1__inner-counter div,
+.productzx7__inner-counter div,
+.productzx9__inner-counter div {
   justify-content: center;
   width: 120px;
   height: 48px;
@@ -665,7 +780,12 @@ h6 {
   letter-spacing: 1px;
   color: #000000;
 }
-.product__inner-counter div::before {
+.productxx59__inner-counter div::before,
+.productxx99m1__inner-counter div::before,
+.productxx99m2__inner-counter div::before,
+.productyx1__inner-counter div::before,
+.productzx7__inner-counter div::before,
+.productzx9__inner-counter div::before {
   content: "-";
   position: absolute;
   left: 15px;
@@ -674,7 +794,12 @@ h6 {
   opacity: 0.25;
   cursor: pointer;
 }
-.product__inner-counter div::after {
+.productxx59__inner-counter div::after,
+.productxx99m1__inner-counter div::after,
+.productxx99m2__inner-counter div::after,
+.productyx1__inner-counter div::after,
+.productzx7__inner-counter div::after,
+.productzx9__inner-counter div::after {
   content: "+";
   position: absolute;
   right: 15px;
@@ -683,14 +808,29 @@ h6 {
   opacity: 0.25;
   cursor: pointer;
 }
-.describe__product-inner {
+.describexx59__product-inner,
+.describexx99m1__product-inner,
+.describexx99m2__product-inner,
+.describeyx1__product-inner,
+.describezx7__product-inner,
+.describezx9__product-inner {
   display: flex;
   gap: 125px;
 }
-.describe__product-features {
+.describexx59__product-features,
+.describexx99m1__product-features,
+.describexx99m2__product-features,
+.describeyx1__product-features,
+.describezx7__product-features,
+.describezx9__product-features {
   width: 635px;
 }
-.describe__product-features h3 {
+.describexx59__product-features h3,
+.describexx99m1__product-features h3,
+.describexx99m2__product-features h3,
+.describeyx1__product-features h3,
+.describezx7__product-features h3,
+.describezx9__product-features h3 {
   font-weight: 700;
   font-size: 32px;
   line-height: 36px;
@@ -699,17 +839,32 @@ h6 {
   color: #000000;
   margin-bottom: 32px;
 }
-.describe__product-features p {
+.describexx59__product-features p,
+.describexx99m1__product-features p,
+.describexx99m2__product-features p,
+.describeyx1__product-features p,
+.describezx7__product-features p,
+.describezx9__product-features p {
   font-weight: 500;
   font-size: 15px;
   line-height: 25px;
   color: #000000;
   opacity: 0.5;
 }
-.describe__product-inbox {
+.describexx59__product-inbox,
+.describexx99m1__product-inbox,
+.describexx99m2__product-inbox,
+.describeyx1__product-inbox,
+.describezx7__product-inbox,
+.describezx9__product-inbox {
   width: 350px;
 }
-.describe__product-inbox h3 {
+.describexx59__product-inbox h3,
+.describexx99m1__product-inbox h3,
+.describexx99m2__product-inbox h3,
+.describeyx1__product-inbox h3,
+.describezx7__product-inbox h3,
+.describezx9__product-inbox h3 {
   font-weight: 700;
   font-size: 32px;
   line-height: 36px;
@@ -718,38 +873,111 @@ h6 {
   color: #000000;
   margin-bottom: 32px;
 }
-.describe__product-inbox div {
+.describexx59__product-inbox div,
+.describexx99m1__product-inbox div,
+.describexx99m2__product-inbox div,
+.describeyx1__product-inbox div,
+.describezx7__product-inbox div,
+.describezx9__product-inbox div {
   font-weight: 500;
   font-size: 15px;
   line-height: 25px;
 }
-.describe__product-inbox p {
+.describexx59__product-inbox p,
+.describexx99m1__product-inbox p,
+.describexx99m2__product-inbox p,
+.describeyx1__product-inbox p,
+.describezx7__product-inbox p,
+.describezx9__product-inbox p {
   display: inline;
   color: #000000;
   opacity: 0.5;
 }
-.describe__product-inbox span {
+.describexx59__product-inbox span,
+.describexx99m1__product-inbox span,
+.describexx99m2__product-inbox span,
+.describeyx1__product-inbox span,
+.describezx7__product-inbox span,
+.describezx9__product-inbox span {
   color: #d87d4a;
   margin-right: 21px;
 }
-.describe__product-inbox div + div {
+.describexx59__product-inbox div + div,
+.describexx99m1__product-inbox div + div,
+.describexx99m2__product-inbox div + div,
+.describeyx1__product-inbox div + div,
+.describezx7__product-inbox div + div,
+.describezx9__product-inbox div + div {
   margin-top: 8px;
 }
 
-.gallery__product-inner {
+.galleryxx59__product-inner,
+.galleryxx99m1__product-inner,
+.galleryxx99m2__product-inner,
+.galleryyx1__product-inner,
+.galleryzx7__product-inner,
+.galleryzx9__product-inner {
   display: flex;
   gap: 32px;
 }
-.gallery__product-inner div:nth-child(1) {
+.galleryxx59__product-inner > div:nth-child(1),
+.galleryxx99m1__product-inner > div:nth-child(1),
+.galleryxx99m2__product-inner > div:nth-child(1),
+.galleryyx1__product-inner > div:nth-child(1),
+.galleryzx7__product-inner > div:nth-child(1),
+.galleryzx9__product-inner > div:nth-child(1) {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
+.galleryxx59__first-img,
+.galleryxx99m1__first-img,
+.galleryxx99m2__first-img,
+.galleryyx1__first-img,
+.galleryzx7__first-img,
+.galleryzx9__first-img {
+  width: 445px;
+  height: 280px;
+  background-position: center;
+  background-size: contain;
+}
+.galleryxx59__second-img,
+.galleryxx99m1__second-img,
+.galleryxx99m2__second-img,
+.galleryyx1__second-img,
+.galleryzx7__second-img,
+.galleryzx9__second-img {
+  width: 445px;
+  height: 280px;
+  background-position: center;
+  background-size: contain;
+}
+.galleryxx59__third-img,
+.galleryxx99m1__third-img,
+.galleryxx99m2__third-img,
+.galleryyx1__third-img,
+.galleryzx7__third-img,
+.galleryzx9__third-img {
+  width: 635px;
+  height: 592px;
+  background-position: center;
+  background-size: contain;
+}
 
-.offers {
+.offersxx59,
+.offersxx99m1,
+.offersxx99m2,
+.offersyx1,
+.offerszx7,
+.offerszx9 {
   margin-bottom: 240px;
 }
-.offers__inner h3 {
+.offersxx59__inner h3,
+.offersxx99m1__inner h3,
+.offersxx99m2__inner h3,
+.offersyx1__inner h3,
+.offerszx7__inner h3,
+.offerszx9__inner h3 {
   font-weight: 700;
   font-size: 24px;
   line-height: 33px;
@@ -759,19 +987,39 @@ h6 {
   color: #000000;
   margin-bottom: 64px;
 }
-.offers__inner-cards {
+.offersxx59__inner-cards,
+.offersxx99m1__inner-cards,
+.offersxx99m2__inner-cards,
+.offersyx1__inner-cards,
+.offerszx7__inner-cards,
+.offerszx9__inner-cards {
   display: flex;
+  justify-content: center;
   gap: 30px;
-  flex-wrap: wrap;
 }
-.offers__inner-card {
-  width: 350px;
+.offersxx59__inner-card,
+.offersxx99m1__inner-card,
+.offersxx99m2__inner-card,
+.offersyx1__inner-card,
+.offerszx7__inner-card,
+.offerszx9__inner-card {
+  max-width: 350px;
   flex-direction: column;
 }
-.offers__card-bg img {
+.offersxx59__card-bg,
+.offersxx99m1__card-bg,
+.offersxx99m2__card-bg,
+.offersyx1__card-bg,
+.offerszx7__card-bg,
+.offerszx9__card-bg {
   margin-bottom: 40px;
 }
-.offers__card-title {
+.offersxx59__card-title,
+.offersxx99m1__card-title,
+.offersxx99m2__card-title,
+.offersyx1__card-title,
+.offerszx7__card-title,
+.offerszx9__card-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 33px;
@@ -779,6 +1027,221 @@ h6 {
   text-transform: uppercase;
   color: #000000;
   margin-bottom: 32px;
+}
+.offersxx99m2__inner-card:nth-child(1) .offersxx99m2__card-bg,
+.offersxx99m1__inner-card:nth-child(1) .offersxx99m1__card-bg,
+.offersxx59__inner-card:nth-child(1) .offersxx59__card-bg,
+.offersyx1__inner-card:nth-child(1) .offersyx1__card-bg,
+.offerszx7__inner-card:nth-child(1) .offerszx7__card-bg,
+.offerszx9__inner-card:nth-child(1) .offerszx9__card-bg,
+.offersxx99m2__inner-card:nth-child(2) .offersxx99m2__card-bg,
+.offersxx99m1__inner-card:nth-child(2) .offersxx99m1__card-bg,
+.offersxx59__inner-card:nth-child(2) .offersxx59__card-bg,
+.offersyx1__inner-card:nth-child(2) .offersyx1__card-bg,
+.offerszx7__inner-card:nth-child(2) .offerszx7__card-bg,
+.offerszx9__inner-card:nth-child(2) .offerszx9__card-bg,
+.offersxx99m2__inner-card:nth-child(3) .offersxx99m2__card-bg,
+.offersxx99m1__inner-card:nth-child(3) .offersxx99m1__card-bg,
+.offersxx59__inner-card:nth-child(3) .offersxx59__card-bg,
+.offersyx1__inner-card:nth-child(3) .offersyx1__card-bg,
+.offerszx7__inner-card:nth-child(3) .offerszx7__card-bg,
+.offerszx9__inner-card:nth-child(3) .offerszx9__card-bg {
+  width: 350px;
+  height: 318px;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.productxx99m2__inner-bg {
+  background-image: url(../images/headphones/xx99mark2.png);
+}
+
+.galleryxx99m2__first-img {
+  background-image: url(../images/headphones/xx99mark2/xx99mark2-img1.png);
+}
+.galleryxx99m2__second-img {
+  background-image: url(../images/headphones/xx99mark2/xx99mark2-img2.png);
+}
+.galleryxx99m2__third-img {
+  background-image: url(../images/headphones/xx99mark2/xx99mark2-img3.png);
+}
+
+.offersxx99m2__inner-card:nth-child(1) .offersxx99m2__card-bg {
+  background-image: url(../images/offers/xx99mark1-img.png);
+}
+
+.offersxx99m2__inner-card:nth-child(2) .offersxx99m2__card-bg {
+  background-image: url(../images/offers/xx59-img.png);
+}
+
+.offersxx99m2__inner-card:nth-child(3) .offersxx99m2__card-bg {
+  background-image: url(../images/offers/zx9-img.png);
+}
+
+.productxx99m1__inner-bg {
+  background-image: url(../images/headphones/xx99mark1.png);
+}
+
+.galleryxx99m1__first-img {
+  background-image: url(../images/headphones/xx99mark1/xx99mark1-img1.png);
+}
+.galleryxx99m1__second-img {
+  background-image: url(../images/headphones/xx99mark1/xx99mark1-img2.png);
+}
+.galleryxx99m1__third-img {
+  background-image: url(../images/headphones/xx99mark1/xx99mark1-img3.png);
+}
+
+.offersxx99m1__inner-card:nth-child(1) .offersxx99m1__card-bg {
+  background-image: url(../images/offers/xx99mark2-img.png);
+}
+
+.offersxx99m1__inner-card:nth-child(2) .offersxx99m1__card-bg {
+  background-image: url(../images/offers/xx59-img.png);
+}
+
+.offersxx99m1__inner-card:nth-child(3) .offersxx99m1__card-bg {
+  background-image: url(../images/offers/zx9-img.png);
+}
+
+.productxx59__inner-bg {
+  background-image: url(../images/headphones/xx59.png);
+}
+
+.galleryxx59__first-img {
+  background-image: url(../images/headphones/xx59/xx59-img1.png);
+}
+.galleryxx59__second-img {
+  background-image: url(../images/headphones/xx59/xx59-img2.png);
+}
+.galleryxx59__third-img {
+  background-image: url(../images/headphones/xx59/xx59-img3.png);
+}
+
+.offersxx59__inner-card:nth-child(1) .offersxx59__card-bg {
+  background-image: url(../images/offers/xx99mark2-img.png);
+}
+
+.offersxx59__inner-card:nth-child(2) .offersxx59__card-bg {
+  background-image: url(../images/offers/xx99mark1-img.png);
+}
+
+.offersxx59__inner-card:nth-child(3) .offersxx59__card-bg {
+  background-image: url(../images/offers/zx9-img.png);
+}
+
+.productyx1__inner-bg {
+  background-image: url(../images/earphones/yx1-img.png);
+}
+
+.galleryyx1__first-img {
+  background-image: url(../images/earphones/yx1/yx1-img1.png);
+}
+.galleryyx1__second-img {
+  background-image: url(../images/earphones/yx1/yx1-img2.png);
+}
+.galleryyx1__third-img {
+  background-image: url(../images/earphones/yx1/yx1-img3.png);
+}
+
+.offersyx1__inner-card:nth-child(1) .offersyx1__card-bg {
+  background-image: url(../images/offers/xx99mark1-img.png);
+}
+
+.offersyx1__inner-card:nth-child(2) .offersyx1__card-bg {
+  background-image: url(../images/offers/xx59-img.png);
+}
+
+.offersyx1__inner-card:nth-child(3) .offersyx1__card-bg {
+  background-image: url(../images/offers/zx9-img.png);
+}
+
+.productzx7__inner-bg {
+  background-image: url(../images/speakers/zx7-img.png);
+}
+
+.galleryzx7__first-img {
+  background-image: url(../images/speakers/zx7/zx7-img1.png);
+}
+.galleryzx7__second-img {
+  background-image: url(../images/speakers/zx7/zx7-img2.png);
+}
+.galleryzx7__third-img {
+  background-image: url(../images/speakers/zx7/zx7-img3.png);
+}
+
+.offerszx7__inner-card:nth-child(1) .offerszx7__card-bg {
+  background-image: url(../images/offers/zx9-img.png);
+}
+
+.offerszx7__inner-card:nth-child(2) .offerszx7__card-bg {
+  background-image: url(../images/offers/xx99mark1-img.png);
+}
+
+.offerszx7__inner-card:nth-child(3) .offerszx7__card-bg {
+  background-image: url(../images/offers/xx59-img.png);
+}
+
+.productzx9__inner-bg {
+  background-image: url(../images/speakers/xz9-img.png);
+}
+
+.galleryzx9__first-img {
+  background-image: url(../images/speakers/zx9/zx9-img1.png);
+}
+.galleryzx9__second-img {
+  background-image: url(../images/speakers/zx9/zx9-img2.png);
+}
+.galleryzx9__third-img {
+  background-image: url(../images/speakers/zx9/zx9-img3.png);
+}
+
+.offerszx9__inner-card:nth-child(1) .offerszx9__card-bg {
+  background-image: url(../images/offers/zx7-img.png);
+}
+
+.offerszx9__inner-card:nth-child(2) .offerszx9__card-bg {
+  background-image: url(../images/offers/xx99mark1-img.png);
+}
+
+.offerszx9__inner-card:nth-child(3) .offerszx9__card-bg {
+  background-image: url(../images/offers/xx59-img.png);
+}
+
+/*-----------------------------GLOBAL and INDEX media queries----------------------------*/
+@media (max-width: 1120px) {
+  .offersxx59__inner-cards,
+  .offersxx99m1__inner-cards,
+  .offersxx99m2__inner-cards,
+  .offersyx1__inner-cards,
+  .offerszx7__inner-cards,
+  .offerszx9__inner-cards {
+    gap: 15px;
+  }
+  .offersxx99m2__inner-card:nth-child(1) .offersxx99m2__card-bg,
+  .offersxx99m1__inner-card:nth-child(1) .offersxx99m1__card-bg,
+  .offersxx59__inner-card:nth-child(1) .offersxx59__card-bg,
+  .offersyx1__inner-card:nth-child(1) .offersyx1__card-bg,
+  .offerszx7__inner-card:nth-child(1) .offerszx7__card-bg,
+  .offerszx9__inner-card:nth-child(1) .offerszx9__card-bg {
+    width: 300px;
+  }
+  .offersxx99m2__inner-card:nth-child(2) .offersxx99m2__card-bg,
+  .offersxx99m1__inner-card:nth-child(2) .offersxx99m1__card-bg,
+  .offersxx59__inner-card:nth-child(2) .offersxx59__card-bg,
+  .offersyx1__inner-card:nth-child(2) .offersyx1__card-bg,
+  .offerszx7__inner-card:nth-child(2) .offerszx7__card-bg,
+  .offerszx9__inner-card:nth-child(2) .offerszx9__card-bg {
+    width: 300px;
+  }
+  .offersxx99m2__inner-card:nth-child(3) .offersxx99m2__card-bg,
+  .offersxx99m1__inner-card:nth-child(3) .offersxx99m1__card-bg,
+  .offersxx59__inner-card:nth-child(3) .offersxx59__card-bg,
+  .offersyx1__inner-card:nth-child(3) .offersyx1__card-bg,
+  .offerszx7__inner-card:nth-child(3) .offerszx7__card-bg,
+  .offerszx9__inner-card:nth-child(3) .offerszx9__card-bg {
+    width: 300px;
+  }
 }
 @media (max-width: 1050px) {
   .wrapper {
@@ -799,6 +1262,21 @@ h6 {
   .frth__component-inner {
     min-height: 525px;
     background-size: 50%;
+  }
+  .offersxx99m2__inner-card:nth-child(1) .offersxx99m2__card-bg {
+    width: 270px;
+    height: 318px;
+    background-image: url(../images/offers/xx99mark1-img.png);
+  }
+  .offersxx99m2__inner-card:nth-child(2) .offersxx99m2__card-bg {
+    width: 270px;
+    height: 318px;
+    background-image: url(../images/offers/xx59-img.png);
+  }
+  .offersxx99m2__inner-card:nth-child(3) .offersxx99m2__card-bg {
+    width: 270px;
+    height: 318px;
+    background-image: url(../images/offers/zx9-img.png);
   }
 }
 @media (max-width: 960px) {
@@ -830,7 +1308,10 @@ h6 {
     max-width: 860px;
   }
   .container {
-    max-width: 820px;
+    max-width: 800px;
+  }
+  .header__topline {
+    gap: 90px;
   }
   .first__component-inner {
     padding-right: 35px;
@@ -842,7 +1323,16 @@ h6 {
   .frth__component-info {
     max-width: 400px;
   }
+  .xx99mark2__inner,
+  .xx99mark1__inner,
+  .xx59__inner,
+  .zx9__inner,
+  .zx7__inner,
+  .yx1__inner {
+    gap: 90px;
+  }
 }
+/*-----------------------------GLOBAL and INDEX media queries----------------------------*/
 @media (max-width: 800px) {
   .wrapper {
     max-width: 768px;
@@ -897,6 +1387,10 @@ h6 {
   .bg {
     background-image: none;
     background-color: #000;
+    margin-bottom: 120px;
+  }
+  .bg .header__topline {
+    margin-bottom: 105px;
   }
   .audiotypes {
     margin-bottom: 96px;
@@ -1001,6 +1495,264 @@ h6 {
     position: absolute;
     bottom: 0;
     right: 0;
+  }
+  .xx99mark2,
+  .xx99mark1,
+  .xx59,
+  .zx9,
+  .zx7,
+  .yx1 {
+    margin-bottom: 120px;
+  }
+  .xx99mark2__inner,
+  .xx99mark1__inner,
+  .xx59__inner,
+  .zx9__inner,
+  .zx7__inner,
+  .yx1__inner {
+    flex-direction: column;
+    gap: 52px;
+  }
+  .xx99mark2__inner-bg,
+  .xx99mark1__inner-bg,
+  .xx59__inner-bg,
+  .zx9__inner-bg,
+  .zx7__inner-bg,
+  .yx1__inner-bg {
+    width: 689px;
+    height: 352px;
+  }
+  .xx99mark2__inner-card,
+  .xx99mark1__inner-card,
+  .xx59__inner-card,
+  .zx9__inner-card,
+  .zx7__inner-card,
+  .yx1__inner-card {
+    width: 507px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .xx99mark2__inner-card h3,
+  .xx99mark1__inner-card h3,
+  .xx59__inner-card h3,
+  .zx9__inner-card h3,
+  .zx7__inner-card h3,
+  .yx1__inner-card h3 {
+    text-align: center;
+  }
+  .xx99mark2__inner-card p,
+  .xx99mark1__inner-card p,
+  .xx59__inner-card p,
+  .zx9__inner-card p,
+  .zx7__inner-card p,
+  .yx1__inner-card p {
+    text-align: center;
+  }
+  /*---------------------------------HEADPHONES page media queries--------------------------*/
+  .xx99mark2__inner-bg {
+    background-image: url(../images/media768/headphones/xx99mark2-768.png);
+    background-position: center;
+  }
+  .xx99mark1__inner-bg {
+    order: 1;
+    background-image: url(../images/media768/headphones/xx99mark1-768.png);
+  }
+  .xx99mark1__inner-card {
+    order: 2;
+  }
+  .xx59 {
+    margin-bottom: 172px;
+  }
+  .xx59__inner-bg {
+    background-image: url(../images/media768/headphones/xx59-768.png);
+  }
+  /*---------------------------------SPEAKERS page media queries--------------------------*/
+  .zx9__inner-bg {
+    background-image: url(../images/media768/speakers/zx9-768.png);
+    background-position: center;
+  }
+  .zx7 {
+    margin-bottom: 172px;
+  }
+  .zx7__inner-bg {
+    order: 1;
+    background-image: url(../images/media768/speakers/zx7-768.png);
+  }
+  .zx7__inner-card {
+    order: 2;
+  }
+  /*---------------------------------EARPHONES page media queries--------------------------*/
+  .yx1__inner-bg {
+    background-image: url(../images/media768/earphones/yx1-768.png);
+    background-position: center;
+  }
+  /*--------------------------------PRODUCTS pages common media queries------------------*/
+  .productxx59__inner,
+  .productxx99m1__inner,
+  .productxx99m2__inner,
+  .productyx1__inner,
+  .productzx7__inner,
+  .productzx9__inner {
+    margin-bottom: 120px;
+    gap: 69px;
+  }
+  .productxx59__inner-bg,
+  .productxx99m1__inner-bg,
+  .productxx99m2__inner-bg,
+  .productyx1__inner-bg,
+  .productzx7__inner-bg,
+  .productzx9__inner-bg {
+    width: 281px;
+    height: 480px;
+    background-repeat: no-repeat;
+  }
+  .describexx59__product,
+  .describexx99m1__product,
+  .describexx99m2__product,
+  .describeyx1__product,
+  .describezx7__product,
+  .describezx9__product {
+    margin-bottom: 120px;
+  }
+  .describexx59__product-inner,
+  .describexx99m1__product-inner,
+  .describexx99m2__product-inner,
+  .describeyx1__product-inner,
+  .describezx7__product-inner,
+  .describezx9__product-inner {
+    gap: 120px;
+    flex-direction: column;
+  }
+  .describexx59__product-features,
+  .describexx99m1__product-features,
+  .describexx99m2__product-features,
+  .describeyx1__product-features,
+  .describezx7__product-features,
+  .describezx9__product-features {
+    width: 100%;
+  }
+  .describexx59__product-inbox,
+  .describexx99m1__product-inbox,
+  .describexx99m2__product-inbox,
+  .describeyx1__product-inbox,
+  .describezx7__product-inbox,
+  .describezx9__product-inbox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .galleryxx59__product,
+  .galleryxx99m1__product,
+  .galleryxx99m2__product,
+  .galleryyx1__product,
+  .galleryzx7__product,
+  .galleryzx9__product {
+    margin-bottom: 120px;
+  }
+  .galleryxx59__product-inner,
+  .galleryxx99m1__product-inner,
+  .galleryxx99m2__product-inner,
+  .galleryyx1__product-inner,
+  .galleryzx7__product-inner,
+  .galleryzx9__product-inner {
+    gap: 18px;
+  }
+  .galleryxx59__product-inner > div:nth-child(1),
+  .galleryxx99m1__product-inner > div:nth-child(1),
+  .galleryxx99m2__product-inner > div:nth-child(1),
+  .galleryyx1__product-inner > div:nth-child(1),
+  .galleryzx7__product-inner > div:nth-child(1),
+  .galleryzx9__product-inner > div:nth-child(1) {
+    gap: 18px;
+  }
+  .galleryxx59__first-img,
+  .galleryxx99m1__first-img,
+  .galleryxx99m2__first-img,
+  .galleryyx1__first-img,
+  .galleryzx7__first-img,
+  .galleryzx9__first-img {
+    width: 277px;
+    max-height: 174px;
+    background-size: contain;
+  }
+  .galleryxx59__second-img,
+  .galleryxx99m1__second-img,
+  .galleryxx99m2__second-img,
+  .galleryyx1__second-img,
+  .galleryzx7__second-img,
+  .galleryzx9__second-img {
+    width: 277px;
+    max-height: 174px;
+    background-size: contain;
+  }
+  .galleryxx59__third-img,
+  .galleryxx99m1__third-img,
+  .galleryxx99m2__third-img,
+  .galleryyx1__third-img,
+  .galleryzx7__third-img,
+  .galleryzx9__third-img {
+    width: 395px;
+    height: 367px;
+    border-radius: 8px;
+  }
+  .offersxx59,
+  .offersxx99m1,
+  .offersxx99m2,
+  .offersyx1,
+  .offerszx7,
+  .offerszx9 {
+    margin-bottom: 172px;
+  }
+  .offersxx59__inner-cards,
+  .offersxx99m1__inner-cards,
+  .offersxx99m2__inner-cards,
+  .offersyx1__inner-cards,
+  .offerszx7__inner-cards,
+  .offerszx9__inner-cards {
+    gap: 11px;
+  }
+  .offersxx99m2__inner-card:nth-child(1) .offersxx99m2__card-bg,
+  .offersxx99m1__inner-card:nth-child(1) .offersxx99m1__card-bg,
+  .offersxx59__inner-card:nth-child(1) .offersxx59__card-bg,
+  .offersyx1__inner-card:nth-child(1) .offersyx1__card-bg,
+  .offerszx7__inner-card:nth-child(1) .offerszx7__card-bg,
+  .offerszx9__inner-card:nth-child(1) .offerszx9__card-bg {
+    width: 223px;
+  }
+  .offersxx99m2__inner-card:nth-child(2) .offersxx99m2__card-bg,
+  .offersxx99m1__inner-card:nth-child(2) .offersxx99m1__card-bg,
+  .offersxx59__inner-card:nth-child(2) .offersxx59__card-bg,
+  .offersyx1__inner-card:nth-child(2) .offersyx1__card-bg,
+  .offerszx7__inner-card:nth-child(2) .offerszx7__card-bg,
+  .offerszx9__inner-card:nth-child(2) .offerszx9__card-bg {
+    width: 223px;
+  }
+  .offersxx99m2__inner-card:nth-child(3) .offersxx99m2__card-bg,
+  .offersxx99m1__inner-card:nth-child(3) .offersxx99m1__card-bg,
+  .offersxx59__inner-card:nth-child(3) .offersxx59__card-bg,
+  .offersyx1__inner-card:nth-child(3) .offersyx1__card-bg,
+  .offerszx7__inner-card:nth-child(3) .offerszx7__card-bg,
+  .offerszx9__inner-card:nth-child(3) .offerszx9__card-bg {
+    width: 223px;
+  }
+  .productxx59__inner-bg {
+    background-image: url(../images/media768/products/xx59-prod-768.png);
+  }
+  .productxx99m2__inner-bg {
+    background-image: url(../images/media768/products/xx99m2-prod-768.png);
+  }
+  .productxx99m1__inner-bg {
+    background-image: url(../images/media768/products/xx99m1-prod-768.png);
+  }
+  .productyx1__inner-bg {
+    background-image: url(../images/media768/products/yx1-prod-768.png);
+  }
+  .productzx7__inner-bg {
+    background-image: url(../images/media768/products/zx7-prod-768.png);
+  }
+  .productzx9__inner-bg {
+    background-image: url(../images/media768/products/zx9-prod-768.png);
   }
 }
 @media (max-width: 650px) {
