@@ -1,0 +1,259 @@
+.mb79 {
+   margin-bottom: 79px;
+}
+
+.products__header {
+   padding-top: 35px;
+   background: #000;
+}
+
+.go__back {
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 25px;
+   color: #000000;
+   opacity: 0.5;
+   margin-bottom: 56px;
+}
+
+
+
+.product {
+
+   &__inner {
+      @extend %flexbox;
+      gap: 125px;
+
+
+
+      &-bg {
+         // width: 540px;
+      }
+
+      &-card {
+
+         h3 {
+            @extend %products_title;
+         }
+      }
+
+      &-txt {
+         @extend %products_txt;
+      }
+
+      &-price {
+         font-weight: 700;
+         font-size: 18px;
+         line-height: 25px;
+         letter-spacing: 1.28571px;
+         text-transform: uppercase;
+         color: #000000;
+         margin-bottom: 47px;
+      }
+
+      &-undertitle {
+         @extend %products_undertitle;
+
+      }
+
+
+      &-counter {
+         @extend %flexbox;
+         gap: 16px;
+
+         div {
+            @extend %flexbox;
+            justify-content: center;
+            width: 120px;
+            height: 48px;
+            background: #F1F1F1;
+            position: relative;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: 1px;
+            color: #000000;
+
+            &::before {
+               content: "-";
+               position: absolute;
+               left: 15px;
+               top: 50%;
+               transform: translateY(-50%);
+               opacity: 0.25;
+               cursor: pointer;
+            }
+
+            &::after {
+               content: "+";
+               position: absolute;
+               right: 15px;
+               top: 50%;
+               transform: translateY(-50%);
+               opacity: 0.25;
+               cursor: pointer;
+            }
+
+         }
+      }
+
+      &-btn {
+         @extend %orng_btn;
+      }
+   }
+}
+
+
+.describe {
+
+
+   &__product {
+
+
+      &-inner {
+         display: flex;
+         gap: 125px;
+      }
+
+
+      &-features {
+         width: 635px;
+
+         h3 {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 36px;
+            letter-spacing: 1.14286px;
+            text-transform: uppercase;
+            color: #000000;
+            margin-bottom: 32px;
+         }
+
+         p {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 25px;
+            color: #000000;
+            opacity: 0.5;
+         }
+
+         // p:nth-child(1){
+         //    margin-bottom: 25px;
+         // }
+      }
+
+
+      &-inbox {
+         width: 350px;
+
+         h3 {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 36px;
+            letter-spacing: 1.14286px;
+            text-transform: uppercase;
+            color: #000000;
+            margin-bottom: 32px;
+         }
+
+         div {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 25px;
+         }
+
+         p {
+            display: inline;
+            color: #000000;
+            opacity: 0.5;
+
+         }
+
+         span {
+            color: $orng;
+            margin-right: 21px;
+         }
+
+         div+div {
+            margin-top: 8px;
+         }
+      }
+   }
+}
+
+.gallery {
+
+   &__product {
+
+
+      &-inner {
+         display: flex;
+         gap: 32px;
+
+         div:nth-child(1) {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+         }
+      }
+   }
+}
+
+
+
+.offers {
+   margin-bottom: 240px;
+
+   &__inner {
+      h3 {
+         font-weight: 700;
+         font-size: 24px;
+         line-height: 33px;
+         text-align: center;
+         letter-spacing: 1.71429px;
+         text-transform: uppercase;
+         color: #000000;
+         margin-bottom: 64px;
+      }
+
+      &-cards {
+         display: flex;
+         gap: 30px;
+         flex-wrap: wrap   ;
+      }
+
+
+      &-card {
+         width: 350px;
+         @extend %flexbox;
+         flex-direction: column;
+      }
+   }
+
+
+   &__card {
+
+
+      &-bg {
+         img {
+            margin-bottom: 40px;
+         }
+      }
+
+
+      &-title {
+         font-weight: 700;
+         font-size: 24px;
+         line-height: 33px;
+         letter-spacing: 1.71429px;
+         text-transform: uppercase;
+         color: #000000;
+         margin-bottom: 32px;
+      }
+
+
+      &-button {
+         @extend %orng_btn;
+      }
+   }
+}

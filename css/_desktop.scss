@@ -38,12 +38,8 @@
 
          &>button {
             @extend %orng_btn;
-            transition: background .7s ease-in;
          }
 
-         &>button:hover {
-            background: #FBAF85;
-         }
       }
 
       &-undertitle {
@@ -178,13 +174,16 @@
             width: 160px;
             height: 48px;
             background: #000;
-            font-weight: 700;
-            font-size: 13px;
-            line-height: 18px;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            color: $w;
             transition: all .7s ease-in;
+
+            a {
+               font-weight: 700;
+               font-size: 13px;
+               line-height: 18px;
+               letter-spacing: 1px;
+               text-transform: uppercase;
+               color: $w;
+            }
          }
 
          button:hover {
@@ -219,7 +218,10 @@
 
          button:hover {
             background: #000;
-            color: $w;
+
+            a {
+               color: $w;
+            }
          }
       }
    }
@@ -264,7 +266,10 @@
 
          button:hover {
             background: #000;
-            color: $w;
+
+            a {
+               color: $w;
+            }
          }
       }
    }

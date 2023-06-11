@@ -86,7 +86,7 @@ h6 {
   font-weight: 400;
 }
 
-.frth__component-inner, .scnd__component-inner, .first__component-inner, .audiotypes__card, .footer__info-social ul, .footer__info, .footer__nav, .xx99mark2__inner,
+.offers__inner-card, .product__inner-counter div, .product__inner-counter, .product__inner, .frth__component-inner, .scnd__component-inner, .first__component-inner, .audiotypes__card, .footer__info-social ul, .footer__info, .footer__nav, .xx99mark2__inner,
 .xx99mark1__inner,
 .xx59__inner,
 .zx9__inner,
@@ -105,7 +105,7 @@ h6 {
   margin-bottom: 32px;
 }
 
-.header__content-info > button, .xx99mark2__inner-card button,
+.offers__card-button, .product__inner-btn, .header__content-info > button, .xx99mark2__inner-card button,
 .xx99mark1__inner-card button,
 .xx59__inner-card button,
 .zx9__inner-card button,
@@ -114,6 +114,14 @@ h6 {
   width: 160px;
   height: 48px;
   background-color: #d87d4a;
+  transition: background 0.7s ease-in;
+}
+.offers__card-button a, .product__inner-btn a, .header__content-info > button a, .xx99mark2__inner-card button a,
+.xx99mark1__inner-card button a,
+.xx59__inner-card button a,
+.zx9__inner-card button a,
+.zx7__inner-card button a,
+.yx1__inner-card button a {
   font-weight: 700;
   font-size: 13px;
   line-height: 18px;
@@ -121,8 +129,16 @@ h6 {
   text-transform: uppercase;
   color: #fff;
 }
+.offers__card-button:hover, .product__inner-btn:hover, .header__content-info > button:hover, .xx99mark2__inner-card button:hover,
+.xx99mark1__inner-card button:hover,
+.xx59__inner-card button:hover,
+.zx9__inner-card button:hover,
+.zx7__inner-card button:hover,
+.yx1__inner-card button:hover {
+  background: #FBAF85;
+}
 
-.xx99mark2__inner-card h3,
+.product__inner-card h3, .xx99mark2__inner-card h3,
 .xx99mark1__inner-card h3,
 .xx59__inner-card h3,
 .zx9__inner-card h3,
@@ -137,7 +153,7 @@ h6 {
   margin-bottom: 32px;
 }
 
-.xx99mark2__inner-card p,
+.product__inner-txt, .xx99mark2__inner-card p,
 .xx99mark1__inner-card p,
 .xx59__inner-card p,
 .zx9__inner-card p,
@@ -151,7 +167,7 @@ h6 {
   margin-bottom: 40px;
 }
 
-.xx99mark2__inner-undertitle,
+.product__inner-undertitle, .xx99mark2__inner-undertitle,
 .xx99mark1__inner-undertitle,
 .xx59__inner-undertitle,
 .zx9__inner-undertitle,
@@ -171,12 +187,15 @@ h6 {
   height: 48px;
   border: 1px solid #000;
   background-color: transparent;
+  transition: all 0.7s ease-in;
+}
+.thrd__component-card button a, .scnd__component-inner button a {
   font-weight: 700;
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  transition: all 0.7s ease-in;
+  color: #000;
 }
 
 .wrapper {
@@ -346,12 +365,6 @@ h6 {
   margin-bottom: 40px;
   max-width: 349px;
 }
-.header__content-info > button {
-  transition: background 0.7s ease-in;
-}
-.header__content-info > button:hover {
-  background: #FBAF85;
-}
 .header__content-undertitle {
   font-weight: 400;
   font-size: 14px;
@@ -463,13 +476,15 @@ h6 {
   width: 160px;
   height: 48px;
   background: #000;
+  transition: all 0.7s ease-in;
+}
+.first__component-info button a {
   font-weight: 700;
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #fff;
-  transition: all 0.7s ease-in;
 }
 .first__component-info button:hover {
   background: #4C4C4C;
@@ -488,6 +503,8 @@ h6 {
 }
 .scnd__component-inner button:hover {
   background: #000;
+}
+.scnd__component-inner button:hover a {
   color: #fff;
 }
 
@@ -516,6 +533,8 @@ h6 {
 }
 .thrd__component-card button:hover {
   background: #000;
+}
+.thrd__component-card button:hover a {
   color: #fff;
 }
 
@@ -601,6 +620,166 @@ h6 {
   background-image: url(../images/earphones/yx1-img.png);
 }
 
+.mb79 {
+  margin-bottom: 79px;
+}
+
+.products__header {
+  padding-top: 35px;
+  background: #000;
+}
+
+.go__back {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  opacity: 0.5;
+  margin-bottom: 56px;
+}
+
+.product__inner {
+  gap: 125px;
+}
+.product__inner-price {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 47px;
+}
+.product__inner-counter {
+  gap: 16px;
+}
+.product__inner-counter div {
+  justify-content: center;
+  width: 120px;
+  height: 48px;
+  background: #F1F1F1;
+  position: relative;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.product__inner-counter div::before {
+  content: "-";
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.25;
+  cursor: pointer;
+}
+.product__inner-counter div::after {
+  content: "+";
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.25;
+  cursor: pointer;
+}
+.describe__product-inner {
+  display: flex;
+  gap: 125px;
+}
+.describe__product-features {
+  width: 635px;
+}
+.describe__product-features h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1.14286px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 32px;
+}
+.describe__product-features p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+  opacity: 0.5;
+}
+.describe__product-inbox {
+  width: 350px;
+}
+.describe__product-inbox h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1.14286px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 32px;
+}
+.describe__product-inbox div {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+}
+.describe__product-inbox p {
+  display: inline;
+  color: #000000;
+  opacity: 0.5;
+}
+.describe__product-inbox span {
+  color: #d87d4a;
+  margin-right: 21px;
+}
+.describe__product-inbox div + div {
+  margin-top: 8px;
+}
+
+.gallery__product-inner {
+  display: flex;
+  gap: 32px;
+}
+.gallery__product-inner div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.offers {
+  margin-bottom: 240px;
+}
+.offers__inner h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 1.71429px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 64px;
+}
+.offers__inner-cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.offers__inner-card {
+  width: 350px;
+  flex-direction: column;
+}
+.offers__card-bg img {
+  margin-bottom: 40px;
+}
+.offers__card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 1.71429px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 32px;
+}
 @media (max-width: 1050px) {
   .wrapper {
     max-width: 1000px;

@@ -107,12 +107,19 @@ h6 {
    width: 160px;
    height: 48px;
    background-color: $orng;
-   font-weight: 700;
-   font-size: 13px;
-   line-height: 18px;
-   letter-spacing: 1px;
-   text-transform: uppercase;
-   color: $w;
+   transition: background .7s ease-in;
+
+   a {
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 18px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: $w;
+   }
+   &:hover {
+      background: #FBAF85;
+   }
 }
 
 
@@ -151,12 +158,16 @@ h6 {
    height: 48px;
    border: 1px solid #000;
    background-color: transparent;
-   font-weight: 700;
-   font-size: 13px;
-   line-height: 18px;
-   letter-spacing: 1px;
-   text-transform: uppercase;
    transition: all .7s ease-in;
+
+   a {
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 18px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #000;
+   }
 }
 
 
