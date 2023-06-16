@@ -117,6 +117,7 @@ h6 {
       text-transform: uppercase;
       color: $w;
    }
+
    &:hover {
       background: #FBAF85;
    }
@@ -192,14 +193,17 @@ h6 {
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
       margin-bottom: 128px;
       gap: 197px;
-
-      div {
+      position: relative;
+      
+      &>div {
          display: none;
       }
-
+      
       &>a:last-child {
          margin-left: auto;
       }
+
+      
    }
 
    &__list {

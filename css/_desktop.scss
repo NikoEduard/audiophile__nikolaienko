@@ -55,6 +55,181 @@
    }
 }
 
+.cart {
+   position: absolute;
+   z-index: 2;
+   display: none;
+   top: 97px;
+   right: 0;
+   background: $w;
+   border-radius: 8px;
+   width: 377px;
+   height: 488px;
+   padding: 31px 32px;
+
+   
+
+   &__inner {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+   }
+
+
+   &__topline {
+      @extend %flexbox;
+      justify-content: space-between;
+
+      h4 {
+         font-weight: 700;
+         font-size: 18px;
+         line-height: 25px;
+         letter-spacing: 1.28571px;
+         text-transform: uppercase;
+         color: #000000;
+
+      }
+
+      a {
+         font-weight: 500;
+         font-size: 15px;
+         line-height: 25px;
+         text-decoration-line: underline;
+         color: #000000;
+         opacity: 0.5;
+      }
+   }
+
+
+   &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 38px;
+
+
+      &-card {
+         @extend %flexbox;
+         justify-content: space-between;
+
+      }
+
+      &-card .cart__content-info::before {
+         content: "";
+         position: absolute;
+         width: 64px;
+         height: 64px;
+         border-radius: 8px;
+         left: 0;
+         top: 50%;
+         transform: translateY(-50%);
+      }
+
+      &-card:nth-child(1) .cart__content-info::before {
+         background: url(../images/cart/xx99m2-cart.png);
+      }
+
+      &-card:nth-child(2) .cart__content-info::before {
+         background: url(../images/cart/xx59-cart.png);
+      }
+
+      &-card:nth-child(3) .cart__content-info::before {
+         background: url(../images/cart/yx1-cart.png);
+      }
+
+
+      &-info {
+         padding-left: 80px;
+         position: relative;
+
+         p:first-child {
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            color: #000000;
+         }
+
+         p:last-child {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 25px;
+            color: #000000;
+            opacity: 0.5;
+         }
+      }
+
+
+      &-counter {
+         @extend %flexbox;
+         justify-content: center;
+         width: 96px;
+         height: 32px;
+         background: #F1F1F1;
+         position: relative;
+         font-weight: 700;
+         font-size: 13px;
+         line-height: 18px;
+         letter-spacing: 1px;
+         color: #000000;
+
+         &::before {
+            content: "-";
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 0.25;
+            cursor: pointer;
+         }
+
+         &::after {
+            content: "+";
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 0.25;
+            cursor: pointer;
+         }
+
+      }
+   }
+ 
+
+   &__submit {
+
+
+      &-info {
+         @extend %flexbox;
+         justify-content: space-between;
+         margin-bottom: 24px;
+
+         h4 {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 25px;
+            text-transform: uppercase;
+            color: #000000;
+            opacity: 0.5;
+         }
+
+         p {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+            text-transform: uppercase;
+            color: #000000;
+
+         }
+      }
+      button{
+         @extend %orng_btn;
+         width: 100%;
+      }
+   }
+}
+
+
+
 /* ------------------------BEGINNING OF THE MAIN PART (AUDIOTYPES SECTION) --------------------------*/
 
 .main {}

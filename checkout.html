@@ -2,175 +2,180 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Audiophile</title>
-    <!-- <link rel="stylesheet" href="./css/zero-style.css" /> -->
+    <title>Checkout</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <div class="wrapper">
-      <header class="header">
+      <header class="checkout__header">
         <section class="container">
-          <article class="header__topline">
-            <a href="#"
+          <section class="header__topline">
+            <a href="./index.html"
               ><img src="./images/audiophile-logo.svg" alt="Audiophile logo"
             /></a>
             <div></div>
             <nav>
               <ul class="header__list">
-                <li><a href="#">Home</a></li>
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="./headphones.html">Headphones</a></li>
                 <li><a href="./speakers.html">Speakers</a></li>
                 <li><a href="./earphones.html">Earphones</a></li>
               </ul>
             </nav>
-            <article class="cart">
-              <div class="cart__inner">
-                <div class="cart__topline">
-                  <h4>Cart(3)</h4>
-                  <a href="#">Remove all</a>
-                </div>
-                <div class="cart__content">
-                  <div class="cart__content-card">
-                    <div class="cart__content-info">
-                      <p>XX99 MK II</p>
-                      <p>$ 2,999</p>
-                    </div>
-                    <div class="cart__content-counter">1</div>
-                  </div>
-                  <div class="cart__content-card">
-                    <div class="cart__content-info">
-                      <p>XX59</p>
-                      <p>$ 899</p>
-                    </div>
-                    <div class="cart__content-counter">2</div>
-                  </div>
-                  <div class="cart__content-card">
-                    <div class="cart__content-info">
-                      <p>YX1</p>
-                      <p>$ 599</p>
-                    </div>
-                    <div class="cart__content-counter">1</div>
-                  </div>
-                </div>
-                <div class="cart__submit">
-                  <div class="cart__submit-info">
-                    <h4>Total</h4>
-                    <p>$ 5,396</p>
-                  </div>
-                  <button><a href="./checkout.html">Checkout</a></button>
-                </div>
-              </div>
-            </article>
             <a href="#"
               ><img src="./images/icons/basket.svg" alt="white basket"
             /></a>
-          </article>
-          <article class="header__content">
-            <article class="header__content-info">
-              <p class="header__content-undertitle">New product</p>
-              <h2>XX99 Mark II Headphones</h2>
-              <p>
-                Experience natural, lifelike audio and exceptional build quality
-                made for the passionate music enthusiast.
-              </p>
-              <button><a href="./xx99mark2.html">See Product</a></button>
-            </article>
-          </article>
+          </section>
         </section>
       </header>
-      <main class="main">
-        <section class="audiotypes">
-          <section class="container">
-            <article class="audiotypes__inner">
-              <article class="audiotypes__card">
-                <img src="./images/headphones-img.png" alt="" />
-                <div></div>
-                <h3>Headphones</h3>
-                <a href="./headphones.html">Shop</a>
+      <main class="main main__checkout">
+        <div class="container">
+          <div class="go__back">Go back</div>
+          <section class="checkout__info">
+            <section class="checkout__details">
+              <h2>Checkout</h2>
+              <article class="checkout__billing">
+                <h3>Billing Details</h3>
+                <form>
+                  <div class="checkout__billing-name">
+                    <p>Name</p>
+                    <input type="text" placeholder="Alexei Ward" />
+                  </div>
+                  <div class="checkout__billing-email">
+                    <p>Email Address</p>
+                    <input type="email" placeholder="alexei@mail.com" />
+                  </div>
+                  <div class="checkout__billing-phone">
+                    <p>Phone Number</p>
+                    <input type="tel" placeholder="+1 202-555-0136" />
+                  </div>
+                </form>
               </article>
-              <article class="audiotypes__card">
-                <img src="./images/speakers-img.png" alt="" />
-                <div></div>
-                <h3>Speakers</h3>
-                <a href="./speakers.html">Shop</a>
+              <article class="checkout__shipping">
+                <h3>shipping info</h3>
+                <form>
+                  <div class="checkout__shipping-address">
+                    <p>Address</p>
+                    <input type="text" placeholder="1137 Williams Avenue" />
+                  </div>
+                  <div class="checkout__shipping-zip">
+                    <p>ZIP code</p>
+                    <input type="number" placeholder="10001" />
+                  </div>
+                  <div class="checkout__shipping-city">
+                    <p>City</p>
+                    <input type="text" placeholder="New York" />
+                  </div>
+                  <div class="checkout__shipping-country">
+                    <p>Country</p>
+                    <input type="text" placeholder="United States" />
+                  </div>
+                </form>
               </article>
-              <article class="audiotypes__card">
-                <img src="./images/earphones-img.png" alt="" />
-                <div></div>
-                <h3>EARPHONES</h3>
-                <a href="./earphones.html">Shop</a>
+              <article class="checkout__payment">
+                <div class="checkout__payment-choice">
+                  <h3>payment details</h3>
+                  <div>
+                    <div class="checkout__payment-vars">
+                      <p>Payment Method</p>
+                      <form>
+                        <div>
+                          <input
+                            type="radio"
+                            name="method"
+                            value="e-money"
+                            id="e-money"
+                          />
+                          <label for="e-money">e-Money</label>
+                        </div>
+                        <div>
+                          <input
+                            type="radio"
+                            name="method"
+                            value="cash"
+                            id="cash"
+                          />
+                          <label for="cash">Cash on Delivery</label>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="checkout__payment-data">
+                      <div>
+                        <p>e-Money Number</p>
+                        <input type="text" placeholder="238521993" />
+                      </div>
+                      <div>
+                        <p>e-Money PIN</p>
+                        <input type="text" placeholder="6891" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </article>
-            </article>
-          </section>
-        </section>
-        <section class="first__component">
-          <section class="container">
-            <article class="first__component-inner">
-              <div class="first__component-info">
-                <h3>ZX9 SPEAKER</h3>
-                <p>
-                  Upgrade to premium speakers that are phenomenally built to
-                  deliver truly remarkable sound.
-                </p>
-                <button><a href="./zx9.html">See Product</a></button>
-              </div>
-            </article>
-          </section>
-        </section>
-        <section class="scnd__component">
-          <section class="container">
-            <article class="scnd__component-inner">
-              <div>
-                <h3>ZX7 SPEAKER</h3>
-                <button><a href="./zx7.html">See Product</a></button>
-              </div>
-            </article>
-          </section>
-        </section>
-        <section class="thrd__component">
-          <section class="container">
-            <article class="thrd__component-inner">
-              <div class="thrd__component-bg"></div>
-              <div class="thrd__component-card">
-                <div>
-                  <h3>YX1 EARPHONES</h3>
-                  <button><a href="./yx1.html">See Product</a></button>
+            </section>
+            <section class="checkout__summary">
+              <h3>Summary</h3>
+              <div class="checkout__summary-cards">
+                <div class="checkout__summary-card">
+                  <div class="summary__card-info">
+                    <p>XX99 MK II</p>
+                    <p>$ 2,999</p>
+                  </div>
+                  <div class="summary__card-counter">1x</div>
+                </div>
+                <div class="checkout__summary-card">
+                  <div class="summary__card-info">
+                    <p>XX59</p>
+                    <p>$ 899</p>
+                  </div>
+                  <div class="summary__card-counter">2x</div>
+                </div>
+                <div class="checkout__summary-card">
+                  <div class="summary__card-info">
+                    <p>YX1</p>
+                    <p>$ 599</p>
+                  </div>
+                  <div class="summary__card-counter">1x</div>
                 </div>
               </div>
-            </article>
-          </section>
-        </section>
-        <section class="frth__component">
-          <section class="container">
-            <article class="frth__component-inner">
-              <div class="frth__component-info">
-                <h3>Bringing you the <span>best</span> audio gear</h3>
-                <p>
-                  Located at the heart of New York City, Audiophile is the
-                  premier store for high end headphones, earphones, speakers,
-                  and audio accessories. We have a large showroom and luxury
-                  demonstration rooms available for you to browse and experience
-                  a wide range of our products. Stop by our store to meet some
-                  of the fantastic people who make Audiophile the best place to
-                  buy your portable audio equipment.
-                </p>
+              <div class="checkout__summary-info">
+                <div class="summary__info-name">
+                  <p>TOTAL</p>
+                  <p>$ 5,396</p>
+                </div>
+                <div class="summary__info-name">
+                  <p>SHIPPING</p>
+                  <p>$ 50</p>
+                </div>
+                <div class="summary__info-name">
+                  <p>VAT (INCLUDED)</p>
+                  <p>$ 1,079</p>
+                </div>
               </div>
-            </article>
+              <div class="checkout__summary-submit">
+                <div class="checkout__submit-info">
+                  <h4>GRAND TOTAL</h4>
+                  <p>$ 5,446</p>
+                </div>
+                <button><a href="#">CONTINUE & PAY</a></button>
+              </div>
+            </section>
           </section>
-        </section>
+        </div>
       </main>
       <footer class="footer">
         <section class="container">
           <section class="footer__inner">
             <div class="footer__line"></div>
             <article class="footer__nav">
-              <a href="#"><img src="./images/audiophile-logo.svg" alt="" /></a>
+              <a href="./index.html"
+                ><img src="./images/audiophile-logo.svg" alt=""
+              /></a>
               <nav>
                 <ul class="footer__menu">
                   <li>
-                    <a href="#">Home</a>
+                    <a href="./index.html">Home</a>
                   </li>
                   <li>
                     <a href="./headphones.html">HEADPHONES</a>
