@@ -387,6 +387,7 @@
          &-inbox {
             width: 100%;
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
          }
       }
@@ -413,14 +414,14 @@
 
       &__first-img {
          width: 277px;
-         max-height: 174px;
-         background-size: contain;
+         height: 174px;
+         border-radius: 8px;
       }
 
       &__second-img {
          width: 277px;
-         max-height: 174px;
-         background-size: contain;
+         height: 174px;
+         border-radius: 8px;
       }
 
       &__third-img {

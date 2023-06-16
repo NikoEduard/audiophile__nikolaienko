@@ -42,11 +42,26 @@
          }
       }
 
+      &__title {
+
+         h1 {
+            font-size: 28px;
+            line-height: 38px;
+            letter-spacing: 2px;
+         }
+      }
+
    }
 
    .bg {
       background-image: none;
       background-color: #000;
+      min-height: 192px;
+      margin-bottom: 62px;
+
+      .header__topline {
+         margin-bottom: 32px;
+      }
    }
 
    .audiotypes {
@@ -153,6 +168,268 @@
       }
    }
 
+   .xx99mark2,
+   .xx99mark1,
+   .xx59,
+   .zx9,
+   .zx7,
+   .yx1 {
+      margin-bottom: 120px;
+
+      &__inner {
+         gap: 32px;
+
+         &-bg {
+            width: 327px;
+            height: 352px;
+         }
+
+         &-card {
+
+            width: 327px;
+
+            h3 {
+               font-size: 28px;
+               line-height: 38px;
+               letter-spacing: 1px;
+               margin-bottom: 24px;
+            }
+
+            p {
+               margin-bottom: 24px;
+            }
+         }
+      }
+   }
+
+   .xx59,
+   .zx7,
+   .yx1 {
+      margin-bottom: 172px;
+   }
+
+   .productxx59,
+   .productxx99m1,
+   .productxx99m2,
+   .productyx1,
+   .productzx7,
+   .productzx9 {
+
+
+      &__inner {
+         margin-bottom: 88px;
+         gap: 32px;
+
+         &-bg {
+            width: 327px;
+            height: 327px;
+         }
+
+         &-card {
+            width: 327px;
+
+            h3 {
+               font-size: 28px;
+               line-height: 38px;
+               letter-spacing: 1px;
+               margin-bottom: 24px;
+            }
+         }
+
+         &-txt {
+            margin-bottom: 24px;
+         }
+
+         &-price {
+            margin-bottom: 31px;
+         }
+      }
+   }
+
+   .describexx59,
+   .describexx99m1,
+   .describexx99m2,
+   .describeyx1,
+   .describezx7,
+   .describezx9 {
+
+
+      &__product {
+
+
+         &-inner {}
+
+
+         &-features {
+
+            h3 {
+               font-size: 24px;
+               line-height: 36px;
+               letter-spacing: 0.857143px;
+               margin-bottom: 24px;
+            }
+
+
+         }
+
+         &-inbox {
+
+            h3 {
+               font-size: 24px;
+               line-height: 36px;
+               letter-spacing: 0.857143px;
+               margin-bottom: 24px;
+            }
+         }
+      }
+   }
+
+   .offersxx59,
+   .offersxx99m1,
+   .offersxx99m2,
+   .offersyx1,
+   .offerszx7,
+   .offerszx9 {
+
+      &__inner {
+
+         &-cards {
+            flex-direction: column;
+            gap: 56px;
+         }
+
+      }
+
+      &__card {
+
+
+         &-bg {
+            margin-bottom: 32px;
+         }
+      }
+   }
+
+   .offersxx99m2__inner-card:nth-child(1) .offersxx99m2__card-bg,
+   .offersxx99m1__inner-card:nth-child(1) .offersxx99m1__card-bg,
+   .offersxx59__inner-card:nth-child(1) .offersxx59__card-bg,
+   .offersyx1__inner-card:nth-child(1) .offersyx1__card-bg,
+   .offerszx7__inner-card:nth-child(1) .offerszx7__card-bg,
+   .offerszx9__inner-card:nth-child(1) .offerszx9__card-bg {
+      width: 327px;
+      height: 120px;
+   }
+
+   .offersxx99m2__inner-card:nth-child(2) .offersxx99m2__card-bg,
+   .offersxx99m1__inner-card:nth-child(2) .offersxx99m1__card-bg,
+   .offersxx59__inner-card:nth-child(2) .offersxx59__card-bg,
+   .offersyx1__inner-card:nth-child(2) .offersyx1__card-bg,
+   .offerszx7__inner-card:nth-child(2) .offerszx7__card-bg,
+   .offerszx9__inner-card:nth-child(2) .offerszx9__card-bg {
+      width: 327px;
+      height: 120px;
+   }
+
+   .offersxx99m2__inner-card:nth-child(3) .offersxx99m2__card-bg,
+   .offersxx99m1__inner-card:nth-child(3) .offersxx99m1__card-bg,
+   .offersxx59__inner-card:nth-child(3) .offersxx59__card-bg,
+   .offersyx1__inner-card:nth-child(3) .offersyx1__card-bg,
+   .offerszx7__inner-card:nth-child(3) .offerszx7__card-bg,
+   .offerszx9__inner-card:nth-child(3) .offerszx9__card-bg {
+      width: 327px;
+      height: 120px;
+   }
+
+   .offersxx59__inner-card:nth-child(1) .offersxx59__card-bg {
+      background-image: url(../images/offers/offers-media375/xx99m2-offer-375.png);
+   }
+
+   .offersxx59__inner-card:nth-child(2) .offersxx59__card-bg {
+      background-image: url(../images/offers/offers-media375/xx99m1-offer-375.png);
+   }
+
+   .offersxx59__inner-card:nth-child(3) .offersxx59__card-bg {
+      background-image: url(../images/offers/offers-media375/zx9-offer-375.png);
+   }
+
+   /*---------------------------------------------------------------------------------------*/
+
+
+
+   .offersxx99m1__inner-card:nth-child(1) .offersxx99m1__card-bg {
+      background-image: url(../images/offers/offers-media375/xx99m2-offer-375.png);
+   }
+
+   .offersxx99m1__inner-card:nth-child(2) .offersxx99m1__card-bg {
+      background-image: url(../images/offers/offers-media375/xx59-offer-375.png);
+   }
+
+   .offersxx99m1__inner-card:nth-child(3) .offersxx99m1__card-bg {
+      background-image: url(../images/offers/offers-media375/zx9-offer-375.png);
+   }
+
+   /*---------------------------------------------------------------------------------------*/
+
+   .offersxx99m2__inner-card:nth-child(1) .offersxx99m2__card-bg {
+
+      background-image: url(../images/offers/offers-media375/xx99m1-offer-375.png);
+
+   }
+
+   .offersxx99m2__inner-card:nth-child(2) .offersxx99m2__card-bg {
+      background-image: url(../images/offers/offers-media375/xx59-offer-375.png);
+   }
+
+   .offersxx99m2__inner-card:nth-child(3) .offersxx99m2__card-bg {
+      background-image: url(../images/offers/offers-media375/zx9-offer-375.png);
+   }
+
+   /*---------------------------------------------------------------------------------------*/
+
+   .offersyx1__inner-card:nth-child(1) .offersyx1__card-bg {
+      background-image: url(../images/offers/offers-media375/xx99m1-offer-375.png);
+   }
+
+   .offersyx1__inner-card:nth-child(2) .offersyx1__card-bg {
+      background-image: url(../images/offers/offers-media375/xx59-offer-375.png);
+   }
+
+   .offersyx1__inner-card:nth-child(3) .offersyx1__card-bg {
+      background-image: url(../images/offers/offers-media375/zx9-offer-375.png);
+   }
+
+   /*---------------------------------------------------------------------------------------*/
+
+
+   .offerszx7__inner-card:nth-child(1) .offerszx7__card-bg {
+      background-image: url(../images/offers/offers-media375/zx9-offer-375.png);
+   }
+
+   .offerszx7__inner-card:nth-child(2) .offerszx7__card-bg {
+      background-image: url(../images/offers/offers-media375/xx99m1-offer-375.png);
+   }
+
+   .offerszx7__inner-card:nth-child(3) .offerszx7__card-bg {
+      background-image: url(../images/offers/offers-media375/xx59-offer-375.png);
+   }
+
+
+   /*---------------------------------------------------------------------------------------*/
+
+
+   .offerszx9__inner-card:nth-child(1) .offerszx9__card-bg {
+      background-image: url(../images/offers/offers-media375/zx7-offer-375.png);
+   }
+
+   .offerszx9__inner-card:nth-child(2) .offerszx9__card-bg {
+      background-image: url(../images/offers/offers-media375/xx99m1-offer-375.png);
+   }
+
+   .offerszx9__inner-card:nth-child(3) .offerszx9__card-bg {
+      background-image: url(../images/offers/offers-media375/xx59-offer-375.png);
+   }
+
+
+
    .footer {
 
       padding: 48px 0 38px;
@@ -198,4 +475,6 @@
          }
       }
    }
+
+
 }
