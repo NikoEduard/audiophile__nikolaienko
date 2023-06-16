@@ -1592,6 +1592,9 @@ h6 {
     height: 480px;
     background-repeat: no-repeat;
   }
+  .products__header .header__topline {
+    margin-bottom: 33px;
+  }
   .describexx59__product,
   .describexx99m1__product,
   .describexx99m2__product,
@@ -1788,9 +1791,6 @@ h6 {
   .zx7,
   .yx1 {
     margin-bottom: 120px;
-  }
-  .products__header .header__topline {
-    margin-bottom: 33px;
   }
   .go__back {
     margin-bottom: 24px;
@@ -2205,6 +2205,9 @@ h6 {
   .productzx7__inner-price,
   .productzx9__inner-price {
     margin-bottom: 31px;
+  }
+  .products__header .header__topline {
+    margin-bottom: 16px;
   }
   .describexx59__product-features h3,
   .describexx99m1__product-features h3,
