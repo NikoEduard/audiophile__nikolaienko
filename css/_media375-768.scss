@@ -1,252 +1,374 @@
-@media(max-width: 650px) {
+ @media(max-width: 693px) {
 
-   .wrapper {
-      max-width: 620px;
-   }
+    .wrapper {
+       max-width: 620px;
+    }
 
-   .container {
-      max-width: 590px;
-   }
+    .container {
+       max-width: 590px;
+    }
 
-   .audiotypes {
-      margin-bottom: 85px;
-   }
+    .drop {
 
-   .thrd {
+       &__menu {
+          width: 620px;
+          top: 51px;
+          left: -15px;
+       }
+    }
 
-      &__component {
+    .audiotypes {
+       margin-bottom: 85px;
+    }
 
-         &-card {
-            padding: 0 0 0 25px;
-         }
+    .thrd {
+
+       &__component {
+
+          &-card {
+             padding: 0 0 0 25px;
+          }
+       }
+    }
+
+    .frth {
+
+       &__component {
+          margin-bottom: 85px;
+
+          &-inner {
+             min-height: 580px;
+          }
+
+       }
+    }
+
+    .bg {
+       min-height: 250px;
+       margin-bottom: 85px;
+
+       .header__topline {
+          margin-bottom: 55px;
+       }
+    }
+
+    .xx99mark2,
+    .xx99mark1,
+    .xx59,
+    .zx9,
+    .zx7,
+    .yx1 {
+       margin-bottom: 85px;
+
+       &__inner {
+
+          &-bg {
+             width: 590px;
+             height: 335px;
+          }
+       }
+    }
+
+    .xx59,
+    .zx7,
+    .yx1 {
+       margin-bottom: 120px;
+    }
+
+
+
+
+    .go__back {
+       margin-bottom: 24px;
+    }
+
+    .productxx59,
+    .productxx99m1,
+    .productxx99m2,
+    .productyx1,
+    .productzx7,
+    .productzx9 {
+
+       &__inner {
+          flex-direction: column;
+          margin-bottom: 88px;
+
+          &-bg {
+             width: 590px;
+             height: 335px;
+          }
+
+          &-card {
+             width: 590px;
+          }
+       }
+    }
+
+    .productxx59__inner-bg {
+       background-image: url(../images/media768/headphones/xx59-768.png);
+    }
+
+    .productxx99m1__inner-bg {
+       background-image: url(../images/media768/headphones/xx99mark1-768.png);
+    }
+
+    .productxx99m2__inner-bg {
+       background-image: url(../images/media768/headphones/xx99mark2-768.png);
+    }
+
+    .productyx1__inner-bg {
+       background-image: url(../images/media768/earphones/yx1-768.png);
+    }
+
+    .productzx7__inner-bg {
+       background-image: url(../images/media768/speakers/zx7-768.png);
+    }
+
+    .productzx9__inner-bg {
+       background-image: url(../images/media768/speakers/zx9-768.png);
+    }
+
+
+    .describexx59,
+    .describexx99m1,
+    .describexx99m2,
+    .describeyx1,
+    .describezx7,
+    .describezx9 {
+
+       &__product {
+          margin-bottom: 88px;
+
+          &-inner {
+
+             gap: 90px;
+          }
+       }
+    }
+
+    .galleryxx59,
+    .galleryxx99m1,
+    .galleryxx99m2,
+    .galleryyx1,
+    .galleryzx7,
+    .galleryzx9 {
+
+       &__product {
+          margin-bottom: 88px;
+
+
+          &-inner {
+             flex-direction: column;
+             align-items: center;
+
+             &>div:nth-child(1) {
+                flex-direction: row;
+             }
+          }
+       }
+    }
+
+    .checkout {
+
+       &__billing {
+
+
+          input {
+             width: 260px;
+             height: 56px;
+          }
+       }
+
+       &__shipping {
+
+
+          input {
+             width: 260px;
+             height: 56px;
+          }
+
+          &-address {
+             width: 100%;
+
+             input {
+                // width: 634px;
+                width: 100%;
+             }
+
+          }
+
+       }
+
+       &__payment {
+
+
+          &-vars {
+
+             form {
+                div {
+                   width: 260px;
+                   height: 56px;
+                }
+             }
+          }
+
+          &-data {
+             input {
+                width: 260px;
+                height: 56px;
+             }
+          }
+       }
+    }
+ }
+
+ @media (max-width: 500px) {
+
+    .wrapper {
+       max-width: 480px;
+    }
+
+    .container {
+       max-width: 460px;
+    }
+    .drop {
+
+      &__menu {
+         width: 478px;
+         left: -6px;
       }
    }
 
-   .frth {
+    .scnd {
 
-      &__component {
-         margin-bottom: 85px;
+       &__component {
+          &-inner {
+             background-position: left -50px center;
+          }
+       }
+    }
 
-         &-inner {
-            min-height: 580px;
-         }
+    .thrd {
 
-      }
-   }
+       &__component {
 
-   .bg {
-      min-height: 250px;
-      margin-bottom: 85px;
+          &-card {
+             padding: 0 0 0 15px;
+          }
+       }
+    }
 
-      .header__topline {
-         margin-bottom: 55px;
-      }
-   }
+    .xx99mark2,
+    .xx99mark1,
+    .xx59,
+    .zx9,
+    .zx7,
+    .yx1 {
 
-   .xx99mark2,
-   .xx99mark1,
-   .xx59,
-   .zx9,
-   .zx7,
-   .yx1 {
-      margin-bottom: 85px;
+       &__inner {
+          gap: 40px;
 
-      &__inner {
+          &-bg {
+             width: 460px;
+             height: 326px;
+          }
 
-         &-bg {
-            width: 590px;
-            height: 335px;
-         }
-      }
-   }
+          &-card {
 
-   .xx59,
-   .zx7,
-   .yx1 {
-      margin-bottom: 120px;
-   }
+             width: 460px;
 
-  
+             h3 {
+                margin-bottom: 30px;
+             }
 
+             p {
+                margin-bottom: 30px;
+             }
+          }
+       }
+    }
 
-   .go__back {
-      margin-bottom: 24px;
-   }
+    .galleryxx59,
+    .galleryxx99m1,
+    .galleryxx99m2,
+    .galleryyx1,
+    .galleryzx7,
+    .galleryzx9 {
 
-   .productxx59,
-   .productxx99m1,
-   .productxx99m2,
-   .productyx1,
-   .productzx7,
-   .productzx9 {
+       &__product {
+          &-inner {
+             flex-direction: column;
+             align-items: center;
 
-      &__inner {
-         flex-direction: column;
-         margin-bottom: 88px;
+             &>div:nth-child(1) {
+                flex-direction: column;
+             }
+          }
+       }
 
-         &-bg {
-            width: 590px;
-            height: 335px;
-         }
+       &__first-img {
+          width: 327px;
+          height: 174px;
+       }
 
-         &-card {
-            width: 590px;
-         }
-      }
-   }
+       &__second-img {
+          width: 327px;
+          height: 174px;
+       }
 
-   .productxx59__inner-bg {
-      background-image: url(../images/media768/headphones/xx59-768.png);
-   }
+       &__third-img {
+          width: 327px;
+       }
+    }
 
-   .productxx99m1__inner-bg {
-      background-image: url(../images/media768/headphones/xx99mark1-768.png);
-   }
+    .checkout {
 
-   .productxx99m2__inner-bg {
-      background-image: url(../images/media768/headphones/xx99mark2-768.png);
-   }
+       &__billing {
+          margin-bottom: 24px;
 
-   .productyx1__inner-bg {
-      background-image: url(../images/media768/earphones/yx1-768.png);
-   }
+          input {
+             width: 280px;
+             height: 56px;
+          }
+       }
 
-   .productzx7__inner-bg {
-      background-image: url(../images/media768/speakers/zx7-768.png);
-   }
+       &__shipping {
+          margin-bottom: 24px;
 
-   .productzx9__inner-bg {
-      background-image: url(../images/media768/speakers/zx9-768.png);
-   }
+          input {
+             width: 280px;
+             height: 56px;
+          }
 
+       }
 
-   .describexx59,
-   .describexx99m1,
-   .describexx99m2,
-   .describeyx1,
-   .describezx7,
-   .describezx9 {
-
-      &__product {
-         margin-bottom: 88px;
-
-         &-inner {
-
-            gap: 90px;
-         }
-      }
-   }
-
-   .galleryxx59,
-   .galleryxx99m1,
-   .galleryxx99m2,
-   .galleryyx1,
-   .galleryzx7,
-   .galleryzx9 {
-
-      &__product {
-         margin-bottom: 88px;
+       &__payment {
 
 
-         &-inner {
-            flex-direction: column;
-            align-items: center;
+          &-vars {
+             flex-direction: column;
+             margin-bottom: 16px;
 
-            &>div:nth-child(1) {
-               flex-direction: row;
-            }
-         }
-      }
-   }
-}
+             form {
+                div {
+                   width: 280px;
+                   height: 56px;
+                }
+             }
+          }
 
-@media (max-width: 500px) {
+          &-data {
+             flex-direction: column;
 
-   .wrapper {
-      max-width: 480px;
-   }
+             input {
+                width: 280px;
+                height: 56px;
+             }
 
-   .container {
-      max-width: 460px;
-   }
-
-   .scnd {
-
-      &__component {
-         &-inner {
-            background-position: left -50px center;
-         }
-      }
-   }
-
-   .thrd {
-
-      &__component {
-
-         &-card {
-            padding: 0 0 0 15px;
-         }
-      }
-   }
-
-   .xx99mark2,
-   .xx99mark1,
-   .xx59,
-   .zx9,
-   .zx7,
-   .yx1 {
-
-      &__inner {
-         gap: 40px;
-
-         &-bg {
-            width: 460px;
-            height: 326px;
-         }
-
-         &-card {
-
-            width: 460px;
-
-            h3 {
-               margin-bottom: 30px;
-            }
-
-            p {
-               margin-bottom: 30px;
-            }
-         }
-      }
-   }
-   .galleryxx59,
-   .galleryxx99m1,
-   .galleryxx99m2,
-   .galleryyx1,
-   .galleryzx7,
-   .galleryzx9 {
-
-      &__product {
-         &-inner {
-            flex-direction: column;
-            align-items: center;
-
-            &>div:nth-child(1) {
-               flex-direction: column;
-            }
-         }
-      }
-      &__first-img {
-         width: 327px;
-         height: 174px;
-      }
-   
-      &__second-img {
-         width: 327px;
-         height: 174px;
-      }
-   
-      &__third-img {
-         width: 327px;
-      }
-   }
-}
+             &>div:nth-child(1) input {
+                margin-bottom: 24px;
+             }
+          }
+       }
+    }
+ }

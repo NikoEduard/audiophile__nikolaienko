@@ -1,5 +1,5 @@
-body {
-   background: #F2F2F2;
+.checkout__bg{
+   background: #f2f2f2;
 }
 
 .checkout__header {
@@ -7,15 +7,15 @@ body {
    background: #000;
 
    .header__topline {
-      margin-bottom: 0;
+      margin-bottom: 79px;
    }
 }
 
 .main__checkout {
    // background: #F2F2F2;
-   padding-top: 79px;
+   // padding-top: 79px;
 
-   .go__back{
+   .go__back {
       margin-bottom: 38px;
    }
 }
@@ -81,13 +81,15 @@ body {
          padding: 0 24px;
       }
 
-      input:focus, input:hover {
+      input:focus,
+      input:hover {
          border-color: $orng;
       }
 
       form {
          display: flex;
-         gap: 16px;
+         // gap: 16px;
+         justify-content: space-between;
          flex-wrap: wrap;
       }
 
@@ -129,13 +131,15 @@ body {
          padding: 0 24px;
       }
 
-      input:focus, input:hover {
+      input:focus,
+      input:hover {
          border-color: $orng;
       }
 
       form {
          display: flex;
-         gap: 16px;
+         // gap: 16px;
+         justify-content: space-between;
          flex-wrap: wrap;
       }
 
@@ -148,9 +152,11 @@ body {
       }
 
       &-address {
+         width: 100%;
 
          input {
-            width: 634px;
+            // width: 634px;
+            width: 100%;
          }
 
       }
@@ -212,7 +218,8 @@ body {
 
       &-data {
          display: flex;
-         gap: 16px;
+         // gap: 16px;
+         justify-content: space-between;
 
          input {
             width: 309px;
@@ -222,7 +229,8 @@ body {
             padding: 0 24px;
          }
 
-         input:focus, input:hover {
+         input:focus,
+         input:hover {
             border-color: $orng;
          }
       }

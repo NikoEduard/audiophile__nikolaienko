@@ -194,16 +194,13 @@ h6 {
       margin-bottom: 128px;
       gap: 197px;
       position: relative;
-      
+
       &>div {
          display: none;
       }
-      
-      &>a:last-child {
-         margin-left: auto;
-      }
 
-      
+
+
    }
 
    &__list {
@@ -225,6 +222,130 @@ h6 {
       }
    }
 }
+
+.drop {
+
+   &__menu {
+      display: none;
+      align-items: center;
+      position: absolute;
+      z-index: 2;
+      top: 54px;
+      left: -39px;
+      width: 768px;
+      height: 340px;
+      background: $w;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+
+
+      &-inner {
+         display: flex;
+         gap: 10px;
+
+      }
+
+
+      &-card {
+         @extend %flexbox;
+         flex-direction: column;
+         width: 223px;
+         height: 165px;
+         padding-top: 42px;
+         background: #f1f1f1;
+         border-radius: 8px;
+         position: relative;
+         cursor: pointer;
+         transition: all .3s ease-in;
+
+         img {
+            position: absolute;
+            top: 0;
+            transform: translateY(-50%);
+         }
+
+         div {
+            width: 122px;
+            height: 18px;
+            background: #000;
+            filter: blur(21.7463px);
+            margin-bottom: 33px;
+         }
+
+         h3 {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+            letter-spacing: 1.28571px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+         }
+
+         a {
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #000;
+            opacity: 0.5;
+            padding-right: 18px;
+            position: relative;
+            transition: all .3s ease-in;
+         }
+
+         a::before {
+            content: "";
+            width: 8px;
+            height: 12px;
+            position: absolute;
+            background-image: url(../images/icons/arrow.svg);
+            background-repeat: no-repeat;
+            top: 3px;
+            right: 0;
+         }
+
+         &:hover {
+            background: #c1c1c1;
+
+            a {
+               color: $orng;
+            }
+         }
+      }
+
+      &-card:nth-child(1) {
+         img {
+            width: 80px;
+         }
+      }
+
+      &-card:nth-child(2) {
+         img {
+            width: 84px;
+         }
+      }
+
+      &-card:nth-child(3) {
+         img {
+            width: 103px;
+         }
+      }
+   }
+}
+
+
+
+
+
+.drop__dowm-cart {
+   margin-left: auto;
+}
+
+.drop__dowm-cart:hover .cart {
+   display: block;
+}
+
 
 .xx99mark2,
 .xx99mark1,

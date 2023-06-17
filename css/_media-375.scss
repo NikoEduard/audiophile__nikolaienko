@@ -52,6 +52,28 @@
       }
 
    }
+
+   .drop{
+
+      &__menu{
+         width: 375px;
+         left: -24px;
+         height: 750px;
+
+         &-inner{
+            flex-direction: column;
+            gap: 68px;
+            padding-top: 32px;
+         }
+         &-card{
+            width: 327px;
+         }
+      }
+      
+   }
+   .drop__dowm-cart {
+      margin-left: 0;
+   }
    .cart{
 
       width: 327px;

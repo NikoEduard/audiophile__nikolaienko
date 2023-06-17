@@ -14,10 +14,11 @@
       margin-bottom: 148px;
 
       &__topline {
+         padding: 0 0 33px;
          gap: 42px;
          margin-bottom: 126px;
 
-         &>a:first-child {
+         &>a {
             order: 2;
          }
 
@@ -44,11 +45,15 @@
                top: 50%;
                transform: translateY(-50%);
             }
+
+            &:hover .drop__menu {
+               display: flex;
+            }
          }
 
-         &>a:last-child {
-            order: 3;
-         }
+         // &>a:last-child {
+         //    order: 3;
+         // }
 
       }
 
@@ -64,6 +69,10 @@
          }
       }
 
+   }
+
+   .drop__dowm-cart {
+      order: 3;
    }
 
    .bg {
@@ -505,6 +514,30 @@
       background-image: url(../images/media768/products/zx9-prod-768.png);
    }
 
+   /* ------------------------------------------ CHECKOUT PAGE ----------------------------------------*/
+   .checkout__header {
+      padding-top: 32px;
 
+      .header__topline {
+         margin-bottom: 48px;
+      }
+   }
+
+   .main__checkout {
+
+      .go__back {
+         margin-bottom: 24px;
+      }
+   }
+
+   .checkout {
+
+      &__info {
+         margin-bottom: 116px;
+      }
+      &__details{
+         padding: 30px 27px;
+      }
+   }
 
 }
