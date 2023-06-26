@@ -303,7 +303,7 @@
       }
 
       &:hover {
-         background: #c1c1c1;
+         // background: #c1c1c1;
 
          a {
             color: $orng;
@@ -444,6 +444,7 @@
 
          button {
             @extend %common_btn;
+
          }
 
          button:hover {

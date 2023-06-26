@@ -6,12 +6,13 @@
    }
 
    .container {
-      max-width: 689px;
+      max-width: 709px;
    }
 
    .header {
       background-image: url(../images/media768/header-bg-768.png);
       margin-bottom: 148px;
+      border-radius: 0;
 
       &__topline {
          padding: 0 0 33px;

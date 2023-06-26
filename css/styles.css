@@ -252,7 +252,7 @@ h6 {
   height: 48px;
   border: 1px solid #000;
   background-color: transparent;
-  transition: all 0.7s ease-in;
+  transition: all 0.4s ease-in;
 }
 .thrd__component-card button a, .scnd__component-inner button a {
   font-weight: 700;
@@ -261,6 +261,7 @@ h6 {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #000;
+  transition: all 0.4s ease-in;
 }
 
 .wrapper {
@@ -270,7 +271,9 @@ h6 {
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 1130px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin: 0 auto;
 }
 
@@ -726,9 +729,6 @@ h6 {
   background-repeat: no-repeat;
   top: 3px;
   right: 0;
-}
-.audiotypes__card:hover {
-  background: #c1c1c1;
 }
 .audiotypes__card:hover a {
   color: #d87d4a;
@@ -1750,7 +1750,7 @@ h6 {
     max-width: 1000px;
   }
   .container {
-    max-width: 960px;
+    max-width: 980px;
   }
   .header__topline {
     gap: 140px;
@@ -1771,7 +1771,7 @@ h6 {
     max-width: 920px;
   }
   .container {
-    max-width: 890px;
+    max-width: 910px;
   }
   .header {
     background-position: center;
@@ -1809,7 +1809,7 @@ h6 {
     max-width: 860px;
   }
   .container {
-    max-width: 800px;
+    max-width: 820px;
   }
   .header__topline {
     gap: 90px;
@@ -1839,11 +1839,12 @@ h6 {
     max-width: 768px;
   }
   .container {
-    max-width: 689px;
+    max-width: 709px;
   }
   .header {
     background-image: url(../images/media768/header-bg-768.png);
     margin-bottom: 148px;
+    border-radius: 0;
   }
   .header__topline {
     padding: 0 0 33px;
@@ -2285,7 +2286,7 @@ h6 {
     max-width: 620px;
   }
   .container {
-    max-width: 590px;
+    max-width: 610px;
   }
   .drop__menu {
     width: 620px;
@@ -2449,7 +2450,7 @@ h6 {
     max-width: 480px;
   }
   .container {
-    max-width: 460px;
+    max-width: 480px;
   }
   .drop__menu {
     width: 478px;
@@ -2583,7 +2584,7 @@ h6 {
     max-width: 375px;
   }
   .container {
-    max-width: 327px;
+    max-width: 347px;
   }
   .header {
     min-height: 600px;
