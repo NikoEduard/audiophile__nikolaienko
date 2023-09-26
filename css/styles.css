@@ -394,10 +394,6 @@ h6 {
   margin-left: auto;
 }
 
-.drop__dowm-cart:hover .cart {
-  display: block;
-}
-
 .xx99mark2,
 .xx99mark1,
 .xx59,
@@ -537,9 +533,9 @@ h6 {
 }
 
 .cart {
+  display: none;
   position: absolute;
   z-index: 2;
-  display: none;
   top: 97px;
   right: 0;
   background: #fff;
@@ -1875,9 +1871,6 @@ h6 {
     background-color: #fff;
     top: 50%;
     transform: translateY(-50%);
-  }
-  .header__topline > div:hover .drop__menu {
-    display: flex;
   }
   .header__content {
     display: flex;

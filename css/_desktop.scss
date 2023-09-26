@@ -57,9 +57,9 @@
 
 
 .cart {
+   display: none;
    position: absolute;
    z-index: 2;
-   display: none;
    top: 97px;
    right: 0;
    background: $w;
